@@ -322,6 +322,17 @@ Task 9 Linux Fundamentals Part 2
 
 2.Join Linux Fundamentals Part 2!
  No answer needed
+///////////////////////////////////////////
 
+Summary of Linux Fundamentals Part 1
+The Linux Fundamentals Part 1 room on TryHackMe introduces beginners to the basics of using Linux. This foundational guide covers the key concepts and commands needed to interact with a Linux system, even for someone with no prior experience. Here’s a breakdown of what was learned and its significance:
+
+Introduction to Linux:
+Linux is an operating system used globally, from servers to personal devices.
+It’s lightweight, powerful, and versatile, making it a popular choice for many industries.
+2. Getting Started with Linux:
+
+Deploying first Linux virtual machine in the browser.
+The machine was used to practice basic commands in a terminal environment, which is the primary way to interact with Linux systems.
 
 
