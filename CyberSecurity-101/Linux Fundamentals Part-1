@@ -335,4 +335,16 @@ It’s lightweight, powerful, and versatile, making it a popular choice for many
 Deploying first Linux virtual machine in the browser.
 The machine was used to practice basic commands in a terminal environment, which is the primary way to interact with Linux systems.
 
+3. Basic Commands:
+Commands like echo (to output text) and whoami (to find the current user) introduced how to interact with the terminal.
+These commands are simple yet form the building blocks of using Linux effectively.
+
+4. Navigating the Filesystem:
+Essential commands like ls (list files), cd (change directory), and pwd (print the working directory) were used to explore and navigate the file system.
+Users learned how to view the contents of files using cat and how to identify the full path of their current location on the system.
+
+5. File Searching:
+The find command was introduced to locate files quickly within the system, saving time compared to manual navigation.
+The grep command was used to search inside files for specific information, showcasing how efficiently Linux handles large datasets.
+
 
