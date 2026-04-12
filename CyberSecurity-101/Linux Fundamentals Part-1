@@ -347,4 +347,9 @@ Users learned how to view the contents of files using cat and how to identify th
 The find command was introduced to locate files quickly within the system, saving time compared to manual navigation.
 The grep command was used to search inside files for specific information, showcasing how efficiently Linux handles large datasets.
 
+6. Shell Operators:
+Operators like & (run tasks in the background), > (redirect output to a file), and >> (append output to a file) added power and flexibility to command usage.
+These operators are key to automating tasks and working efficiently in Linux.
+
+
 
