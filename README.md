@@ -1,5 +1,5 @@
 👾 TryHackMe Writeups
-by navdeep1601
+by Navdeep Gupta
 Hi, I'm a cybersecurity student on a mission to break into the field as a Penetration Tester or SOC Analyst (L1). This repository is my personal collection of TryHackMe room writeups — documenting every challenge I tackle, every vulnerability I exploit, and every concept I pick up along the way.
 
 ABOUT ME
