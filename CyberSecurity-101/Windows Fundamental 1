@@ -58,6 +58,13 @@ Answer: New Technology File System
 NTFS allows for detailed access control. You can view permissions by right-clicking a file/folder, selecting Properties, and navigating to the Security tab.
 
 
+Task 5: The Windows\System32 Folders
+The C:\Windows folder contains the core operating system files. Windows uses Environment Variables to store system paths. The variable %windir% points directly to the Windows directory.
 
+
+Question 1: What is the system variable for the Windows folder?
+Answer: %windir%
+
+The System32 folder, located within the Windows directory, holds critical files vital for the OS's operation.
 
 
