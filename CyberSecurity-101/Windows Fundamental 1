@@ -117,3 +117,17 @@ Answer: Windows Defender Firewall
 Open Control Panel, change “View by” to Small icons, and scroll to the bottom.
 
 
+Task 9: Task Manager
+
+The Task Manager is essential for monitoring system performance and managing running processes. It displays CPU, RAM, disk, and network usage.
+
+Question 1: What is the keyboard shortcut to open Task Manager?
+Answer: Ctrl+Shift+Esc
+
+
+Conclusion
+This room provided a solid introduction to the Windows operating system, covering everything from the file system structure (NTFS) to
+user management and essential tools like the Task Manager. Mastering these fundamentals is crucial for any aspiring cybersecurity professional,
+as securing Windows environments is a core part of defensive security.
+Stay tuned for the next installment in the Cybersecurity 101 Pathway!
+Next Up: Windows Fundamentals Part 2.
