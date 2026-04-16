@@ -98,3 +98,10 @@ Answer: Built-in account for guest access to the computer/domain
 (Note: The room might accept specific text based on the description field found in the properties tab shown below).
 
 
+Task 7: User Account Control
+User Account Control (UAC) is a security feature that prevents unauthorized changes to the operating system. Even administrators run with standard privileges until a task requires elevation, at which point UAC prompts for confirmation.
+
+Question 1: What does UAC mean?
+Answer: User Account Control
+
+
