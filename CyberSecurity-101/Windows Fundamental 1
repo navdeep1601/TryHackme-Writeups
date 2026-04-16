@@ -105,3 +105,15 @@ Question 1: What does UAC mean?
 Answer: User Account Control
 
 
+Task 8: Settings and the Control Panel
+
+Windows provides two main interfaces for configuration:
+Settings: The modern, touch-friendly menu introduced in Windows 8.
+Control Panel: The traditional, robust interface for complex system management.
+
+Question 1: In the Control Panel, change the view to Small icons. What is the last setting in the Control Panel view?
+Answer: Windows Defender Firewall
+
+Open Control Panel, change “View by” to Small icons, and scroll to the bottom.
+
+
