@@ -13,3 +13,13 @@ Machine IP: MACHINE_IP
 User: administrator
 Password: letmein123!
 (No answer needed)
+
+
+Task 2: Windows Editions
+Windows has evolved significantly since its inception in 1985. From the long-running Windows XP to the overhaul of Vista and the widely adopted Windows 7, Microsoft has continually refined its OS. Currently, Windows 10 is the standard for desktops, typically available in Home and Pro editions.
+
+Question 1: What encryption can you enable on Pro that you can’t enable in Home?
+Answer: BitLocker
+
+The comparison between Windows editions reveals that Pro includes BitLocker device encryption, a critical feature for securing data on lost or stolen devices.
+
