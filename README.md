@@ -11,4 +11,4 @@ WHAT YOU'LL FIND HERE
 Step-by-step writeups for TryHackMe rooms (Easy → Hard)
 Tools, commands, and techniques used with explanations
 My thought process — not just the answers, but the reasoning
-Areas: Web exploitation, privilege escalation, CTF, OSINT, network security
+Areas: Web exploitation, privilege escalation, CTF, OSINT, network security.
