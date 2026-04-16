@@ -49,4 +49,15 @@ Question 3: Besides Clock and Network, what other icon is visible in the Notific
 Answer: Action Center
 
 
+Task 4: The File System
+Modern Windows systems use the New Technology File System (NTFS). Unlike older file systems like FAT16/FAT32, NTFS supports journaling (for automatic repair), file permissions, compression, and encryption.
+
+Question 1: What is the meaning of NTFS?
+Answer: New Technology File System
+
+NTFS allows for detailed access control. You can view permissions by right-clicking a file/folder, selecting Properties, and navigating to the Security tab.
+
+
+
+
 
