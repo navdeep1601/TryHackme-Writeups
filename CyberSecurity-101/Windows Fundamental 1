@@ -68,3 +68,30 @@ Answer: %windir%
 The System32 folder, located within the Windows directory, holds critical files vital for the OS's operation.
 
 
+Task 6: User Accounts, Profiles, and Permissions
+
+Windows supports two main local account types:
+Administrator: Has full control over the system.
+Standard User: Restricted permissions; cannot make system-level changes.
+User profiles are stored in C:\Users. We can manage users and groups using the Local Users and Groups management console (lusrmgr.msc).
+
+Question 1: What is the name of the other user account?
+Answer: tryhackmebilly
+
+Open lusrmgr.msc, click on Users, and you will see the account listed.
+Open Local Users via Run
+Groups window showing tryhackmebilly
+
+Question 2: What groups is this user a member of?
+Answer: Remote Desktop Users,Users
+
+Right-click the user tryhackmebilly, select Properties, and check the Member Of tab.
+Opening Properties menu for tryhackmebilly
+tryhackmebilly properties showing group membership
+
+Question 3: What built-in account is for guest access to the computer?
+Answer: Guest
+
+
+
+
