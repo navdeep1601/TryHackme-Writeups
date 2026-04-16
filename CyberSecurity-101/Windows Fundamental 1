@@ -92,6 +92,9 @@ tryhackmebilly properties showing group membership
 Question 3: What built-in account is for guest access to the computer?
 Answer: Guest
 
+Question 4: What is the account description?
+Answer: Built-in account for guest access to the computer/domain
 
+(Note: The room might accept specific text based on the description field found in the properties tab shown below).
 
 
