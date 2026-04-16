@@ -1,2 +1,15 @@
 Windows Fundamentals Part 1: Cybersecurity 101 Pathway — TryHackMe
 
+This writeup covers the Windows Fundamentals 1 room on TryHackMe.
+We will explore the Windows interface, file system, user account management, and essential system utilities.
+This guide is designed for those looking to build a strong foundation in Windows OS navigation and configuration.
+
+
+Task 1: Introduction to Windows
+The Windows operating system is a complex ecosystem of files, utilities, and settings. This module provides a general overview of the Windows OS, navigating the user interface, and making system changes.
+To follow along, launch the virtual machine provided in the room. You can access it via the in-browser view or Remote Desktop using the credentials below:
+
+Machine IP: MACHINE_IP
+User: administrator
+Password: letmein123!
+(No answer needed)
