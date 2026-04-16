@@ -23,3 +23,30 @@ Answer: BitLocker
 
 The comparison between Windows editions reveals that Pro includes BitLocker device encryption, a critical feature for securing data on lost or stolen devices.
 
+
+Task 3: Desktop GUI
+
+The Graphical User Interface (GUI) is the visual environment you interact with. Key components include:
+The Desktop: Your main workspace for shortcuts and files.
+The Start Menu: The central hub for apps, files, and utilities.
+The Taskbar: Displays running applications and system tools.
+The Notification Area:Located at the bottom right, showing system status icons like clock and network.
+
+Question 1: Which selection will hide/disable the Search box?
+Answer: Hidden
+To hide the search box, right-click the taskbar, hover over Search, and select Hidden.
+
+Right-clicking taskbar to hide Search box
+
+Question 2: Which selection will hide/disable the Task View button?
+Answer: Show Task View button
+
+Right-click the taskbar and toggle the Show Task View button option to hide it.
+Press enter or click to view image in full size
+Disabling Task View button
+
+Question 3: Besides Clock and Network, what other icon is visible in the Notification Area?
+Answer: Action Center
+
+
+
