@@ -16,3 +16,12 @@ User: administrator
 Password: letmein123!
 (No answer needed)
 
+
+Task 2: System Configuration
+The System Configuration utility (MSConfig) is designed for advanced troubleshooting, primarily to help diagnose startup issues.
+To open it, press Windows Key + R to open the Run prompt, type msconfig, and press Enter. The utility has five tabs:
+General: Select startup modes (Normal, Diagnostic, Selective).
+Boot: Define boot options for the OS.
+Services: List all services configured for the system. A service is a special type of application that runs in the background.
+Startup: Manage startup items (Note: In Windows 10/11, this redirects to Task Manager).
+Tools: A list of various diagnostic tools and their launch commands.
