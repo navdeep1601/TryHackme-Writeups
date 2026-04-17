@@ -52,3 +52,13 @@ Based on the command structure seen in the previous question (control.exe), we c
 Answer: control.exe
 
 
+Task 3: Change UAC Settings
+User Account Control (UAC) is a security feature that prevents unauthorized changes to the operating system. 
+The Change UAC Settings tool allows you to adjust the notification level.
+You can modify this by moving the slider from “Always notify” to “Never notify” (not recommended for security).
+
+
+Question 4: What is the command to open User Account Control Settings? (The answer is the name of the .exe file, not the full path)
+You can find this by looking at the Tools tab in System Configuration and selecting “Change UAC Settings”.
+Change UAC Settings in Windows via System Configurations
+Answer: UserAccountControlSettings.exe
