@@ -62,3 +62,17 @@ Question 1: What is the command to open User Account Control Settings? (The answ
 You can find this by looking at the Tools tab in System Configuration and selecting “Change UAC Settings”.
 Change UAC Settings in Windows via System Configurations
 Answer: UserAccountControlSettings.exe
+
+
+Task 4: Computer Management
+The Computer Management (compmgmt.msc) utility is a console that consolidates several administrative tools into a single window. It is divided into three primary sections: System Tools, Storage, and Services and Applications.
+System Tools
+Task Scheduler: Create and manage automated tasks (e.g., running a script at login).
+Event Viewer: View system event logs (Application, Security, System, etc.) to audit activity or diagnose errors.
+Shared Folders: View folders shared on the network and user sessions.
+Storage
+Disk Management: Perform advanced storage tasks like shrinking partitions or assigning drive letters.
+Services and Applications
+Services: Manage background services (Start, Stop, Restart).
+WMI Control: Configure Windows Management Instrumentation.
+
