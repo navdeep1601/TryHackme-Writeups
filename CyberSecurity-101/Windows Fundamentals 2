@@ -118,3 +118,12 @@ Question 3: Under Environment Variables, what is the value for ComSpec?
 Navigate to Software Environment > Environment Variables. Locate ComSpec to see the path to the command prompt executable.
 Environment Variables under Software Environment in System Information
 Answer: %SystemRoot%\system32\cmd.exe
+
+
+
+Task 6: Resource Monitor
+Resource Monitor (resmon) offers real-time monitoring of system resources, providing more granular detail than Task Manager. It allows you to inspect:
+CPU: Usage per process.
+Memory: Physical and committed memory breakdown.
+Disk: Read/write speeds and active files.
+Network: Active TCP connections and listening ports.
