@@ -25,3 +25,30 @@ Boot: Define boot options for the OS.
 Services: List all services configured for the system. A service is a special type of application that runs in the background.
 Startup: Manage startup items (Note: In Windows 10/11, this redirects to Task Manager).
 Tools: A list of various diagnostic tools and their launch commands.
+
+
+Question 1: What is the name of the service that lists Systems Internals as the manufacturer?
+
+To find this, open msconfig via Run:
+Opening msconfig via Run
+Then Navigate to the Services tab. To filter the list effectively, check the box labeled “Hide all Microsoft services”. Look through the remaining list for the manufacturer “Systems Internals”.
+Hiding all Microsoft services in System Configurations
+Answer: PsShutdown
+
+Question 2: Whom is the Windows license registered to?
+Navigate to the Tools tab, select About Windows, and click Launch
+Tools under System Configurations
+The pop-up window will display the licensing information.
+Windows User under About Windows
+Answer: Windows User
+
+Question 3: What is the command for Windows Troubleshooting?
+In the Tools tab, highlight Windows Troubleshooting and look at the “Selected command” field at the bottom.
+Windows Troubleshooting command
+Answer: C:\Windows\System32\control.exe /name Microsoft.Troubleshooting
+
+Question 4: What command will open the Control Panel? (The answer is the name of .exe, not the full path)
+Based on the command structure seen in the previous question (control.exe), we can deduce the executable name.
+Answer: control.exe
+
+
