@@ -1,1 +1,9 @@
 Windows Fundamentals Part 2: Cybersecurity 101 Pathway — TryHackMe
+
+
+Welcome back to the Cybersecurity 101 Pathway series! In Windows Fundamentals Part 1,
+we covered the desktop, the file system, user account control, the control panel, settings, and the task manager.
+This writeup covers the Windows Fundamentals 2 room on TryHackMe.
+This module provides an overview of essential utilities available within the Windows operating system and different 
+methods to access them, including System Configuration, Computer Management, and the Registry Editor.
+
