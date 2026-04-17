@@ -76,3 +76,23 @@ Services and Applications
 Services: Manage background services (Start, Stop, Restart).
 WMI Control: Configure Windows Management Instrumentation.
 
+
+Question 1: What is the command to open Computer Management? (The answer is the name of the .msc file, not the full path)
+Computer Management under Tools in msconfig
+Answer: compmgmt.msc
+
+Question 2: At what time every day is the GoogleUpdateTaskMachineUA task configured to run?
+Open Task Scheduler > Task Scheduler Library. Select GoogleUpdateTaskMachineUA and look at the Triggers tab or the description.
+Checking task in Task Scheduler
+Answer: 6:15 AM
+
+Question 3: What is the name of the hidden folder that is shared?
+Get Farhad Anwari’s stories in your inbox
+Join Medium for free to get updates from this writer.
+Enter your email
+Subscribe
+Remember me for faster sign in
+Navigate to System Tools > Shared Folders > Shares. Hidden shares usually end with a $ sign, but we are looking for a specific hidden folder shared for this exercise.
+Share name in Computer Management
+Answer: sh4r3dF0Ld3r
+
