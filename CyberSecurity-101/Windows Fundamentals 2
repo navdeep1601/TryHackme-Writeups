@@ -105,3 +105,16 @@ Software Environment: Lists drivers, running tasks, and Environment Variables.
 Environment Variables store OS data like file paths (e.g., %windir% or %SystemRoot%).
 
 
+Question 1: What is the command to open System Information? (The answer is the name of the .exe file, not the full path)
+System Information path under Tools in msconfig
+Answer: msinfo32.exe
+
+Question 2: What is listed under System Name?
+Check the System Summary main page for the “System Name” entry.
+System name under System Summary
+Answer: THM-WINFUN2
+
+Question 3: Under Environment Variables, what is the value for ComSpec?
+Navigate to Software Environment > Environment Variables. Locate ComSpec to see the path to the command prompt executable.
+Environment Variables under Software Environment in System Information
+Answer: %SystemRoot%\system32\cmd.exe
