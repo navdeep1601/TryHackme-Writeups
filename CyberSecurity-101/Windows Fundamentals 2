@@ -127,3 +127,8 @@ CPU: Usage per process.
 Memory: Physical and committed memory breakdown.
 Disk: Read/write speeds and active files.
 Network: Active TCP connections and listening ports.
+
+
+Question 11: What is the command to open Resource Monitor? (The answer is the name of the .exe file, not the full path)
+Resource Monitor path under Tools in msconfig
+Answer: resmon.exe
