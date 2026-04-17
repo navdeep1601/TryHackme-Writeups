@@ -129,6 +129,30 @@ Disk: Read/write speeds and active files.
 Network: Active TCP connections and listening ports.
 
 
-Question 11: What is the command to open Resource Monitor? (The answer is the name of the .exe file, not the full path)
+Question 1: What is the command to open Resource Monitor? (The answer is the name of the .exe file, not the full path)
 Resource Monitor path under Tools in msconfig
 Answer: resmon.exe
+
+
+
+Task 7: Command Prompt
+The Command Prompt (cmd.exe) is the command-line interpreter for Windows. While MSConfig and other GUI tools are helpful, knowing command-line basics is essential for cybersecurity.
+Key commands used in this task:
+hostname: Outputs the computer name.
+whoami: Outputs the current user.
+ipconfig: Shows network address settings.
+netstat: Displays network connections and protocol statistics.
+net help: Retrieves help manuals for net commands (e.g., net help user).
+
+
+Question 1: In System Configuration, what is the full command for Internet Protocol Configuration?
+Looking back at the Tools tab in MSConfig, find "Internet Protocol Configuration" and check the command.
+Internet Protocol Configurations under Tools in msconfig
+Answer: C:\Windows\System32\cmd.exe /k %windir%\system32\ipconfig.exe
+
+Question 2: For the ipconfig command, how do you show detailed information?
+Running ipconfig /? shows the help menu. The flag for "all" information (including MAC address, DNS, etc.) is /all.
+Press enter or click to view image in full size
+Running ipconfig /?
+Answer: ipconfig /all
+
