@@ -170,3 +170,11 @@ Question 1: What is the command to open the Registry Editor? (The answer is the 
 Registry Editor under Tools in msconfig
 Answer: regedt32.exe
 (Note: regedit.exe is also commonly used, but the room accepts the older executable name found in MSConfig tools).
+
+
+Conclusion
+In this room, we explored several built-in Windows utilities that go beyond the basic interface. We used System Configuration 
+(MSConfig) as a hub to discover tools like the Registry Editor, Resource Monitor, and Computer Management. Mastering these tools 
+allows you to diagnose issues, manage permissions, and inspect system behavior — skills that are foundational for any defensive security role.
+
+
