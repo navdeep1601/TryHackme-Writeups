@@ -96,3 +96,12 @@ Navigate to System Tools > Shared Folders > Shares. Hidden shares usually end wi
 Share name in Computer Management
 Answer: sh4r3dF0Ld3r
 
+
+Task 5: System Information
+The System Information (msinfo32) tool gathers comprehensive details about your hardware, system components, and software environment.
+System Summary: Displays OS name, version, processor, and BIOS info.
+Hardware Resources: Details on I/O, IRQs, and memory addresses.
+Software Environment: Lists drivers, running tasks, and Environment Variables.
+Environment Variables store OS data like file paths (e.g., %windir% or %SystemRoot%).
+
+
