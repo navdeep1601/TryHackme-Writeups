@@ -156,3 +156,17 @@ Press enter or click to view image in full size
 Running ipconfig /?
 Answer: ipconfig /all
 
+
+
+Task 8: Registry Editor
+The Windows Registry is a central hierarchical database that stores configuration settings for the system, users, and applications. It is critical for the OS operation.
+Common root keys include:
+HKEY_CURRENT_USER (Settings for the logged-in user)
+HKEY_LOCAL_MACHINE (Settings for the computer, applying to all users)
+Warning: modifying the registry incorrectly can cause system instability.
+
+
+Question 1: What is the command to open the Registry Editor? (The answer is the name of the .exe file, not the full path)
+Registry Editor under Tools in msconfig
+Answer: regedt32.exe
+(Note: regedit.exe is also commonly used, but the room accepts the older executable name found in MSConfig tools).
