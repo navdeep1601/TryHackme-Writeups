@@ -99,3 +99,6 @@ Public: The default for untrusted networks (like coffee shop Wi-Fi). This is the
 You can manage these via the GUI or using the command WF.msc.
 
 Answer the questions below
+Question 4: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
+Based on the definitions above, an airport offers a public connection. You can also verify this by checking the active profile in the Firewall settings.
+Answer: Public network
