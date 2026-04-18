@@ -64,3 +64,22 @@ Q. Checking the Security section on your VM, which area needs immediate attentio
 Answer:rus & Threat Protection
 
 
+
+Task 4: Virus & threat protection
+
+This section is divided into Current threats and Settings.
+Current Threats allows you to perform scans:
+
+Quick scan: Checks common threat locations.
+Full scan: Checks all files (can take over an hour).
+Custom scan: User-selected locations.
+Settings allow you to manage:
+
+Real-time protection: Actively stops malware from running.
+Cloud-delivered protection: Accesses the latest threat data from the cloud.
+Exclusions: Items you tell the antivirus to ignore.
+
+Answer the questions below
+Question 3: Specifically, what is turned off that Windows is notifying you to turn on?
+Navigate to Virus & threat protection. You will see a specific setting flagged as “Off”.
+Answer: Real-time protection
