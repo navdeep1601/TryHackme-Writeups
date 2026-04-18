@@ -134,3 +134,9 @@ If a computer lacks a TPM chip, BitLocker can still be used, but the encryption 
 Instead, the user must use a “USB startup key” to unlock the drive before Windows can boot.
 Answer: USB startup key
 
+
+
+Task 9: Volume Shadow Copy Service
+The Volume Shadow Copy Service (VSS) coordinates the creation of consistent snapshots (point-in-time copies) of data. These are stored in the System Volume Information folder.
+This technology powers System Restore. If you corrupt a file or install a bad driver, you can revert the system to a previous “shadow copy.”
+Security Note: Modern ransomware often attempts to delete these Shadow Copies immediately upon infection to prevent you from restoring your files without paying the ransom.
