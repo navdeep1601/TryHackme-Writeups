@@ -1,1 +1,9 @@
 Tryhackme Walk-through Room — Windows Fundamentals 3
+
+We will continue our journey exploring the Windows operating system.
+To summarize the previous two rooms:
+In Windows Fundamentals 1, we covered the desktop, the file system, user account control, the control panel, settings, and the task manager. 
+In Windows Fundamentals 2, we covered various utilities, such as System Configuration, Computer Management, Resource Monitor, etc. 
+This module will attempt to provide an overview of the security features within the Windows operating system.
+
+Press the Start Machine button below to launch the attached virtual machine.
