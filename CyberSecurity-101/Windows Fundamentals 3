@@ -28,3 +28,15 @@ Tip: Another way to access Windows Update is from the Run dialog box, or CMD, by
 In the attached VM, there are a few things to highlight. 
 The Windows Update settings are 'managed'. (Typically, home users will not see this type of message) 
 There are no available updates available for the virtual machine. (The attached virtual machine does not have Internet access to communicate with Microsoft to obtain new updates)
+
+Throughout the years, Windows users have grown accustomed to pushing Windows Updates off to a later date or not installing the updates at all. Various reasons caused this action, one being the fact that a reboot is typically required after a Windows update.  
+Microsoft notably addressed this issue with Windows 10. The updates can no longer be ignored or pushed to the side until forgotten. Windows updates can only be postponed, but eventually, the update will happen, and your computer will reboot. Microsoft provides these updates to keep the device safe and secure. 
+Below is an image showing how a Restart required looks and the several options available regarding scheduling the restart.
+Refer to the Windows Updates FAQ(opens in new tab) for more information.
+
+Answer the questions below
+Q.There were two definition updates installed in the attached VM. On what date were these updates installed?
+  This can be found by clicking on the View Update History link
+  Answer: 5/3/2021
+
+
