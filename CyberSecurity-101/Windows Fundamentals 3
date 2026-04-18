@@ -144,3 +144,15 @@ Security Note: Modern ransomware often attempts to delete these Shadow Copies im
 Answer the questions below
 Question 7: What is VSS?
 Answer: Volume Shadow Copy Service
+
+
+
+Conclusion
+In this room, we covered the built-in Windows security tools designed to minimize the attack surface of the OS. 
+From Windows Update keeping patches current to BitLocker encrypting physical drives and VSS providing backup snapshots,
+these are essential concepts for any cybersecurity professional.
+
+However, keep in mind that attackers also study these tools. A tactic known as Living Off The Land (LotL) involves 
+attackers using these very same built-in utilities (like PowerShell or WMI) to blend in with normal system activity and avoid detection.
+
+This concludes the Windows Fundamentals module!
