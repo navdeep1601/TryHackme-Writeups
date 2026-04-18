@@ -102,3 +102,10 @@ Answer the questions below
 Question 4: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
 Based on the definitions above, an airport offers a public connection. You can also verify this by checking the active profile in the Firewall settings.
 Answer: Public network
+
+
+
+Task 6: App & Browser Control
+This section manages Microsoft Defender SmartScreen, which protects against phishing sites, malicious downloads, and unrecognized apps.
+It also contains Exploit Protection, a built-in feature to mitigate common attack techniques (like memory buffer overflows) against the system.
+
