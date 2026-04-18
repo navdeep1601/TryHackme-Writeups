@@ -16,6 +16,9 @@ Password: letmein123!
 Accept the Certificate when prompted, and you should be logged into the remote system now.
 Note: The virtual machine may take up to 3 minutes to load.
 
+
+
+
 Task 2: Windows Updates
 
 Let's start things off with Windows Update. 
@@ -38,6 +41,7 @@ Answer the questions below
 Q.There were two definition updates installed in the attached VM. On what date were these updates installed?
   This can be found by clicking on the View Update History link
   Answer: 5/3/2021
+
 
 
 Task 3: Windows Security
@@ -83,3 +87,15 @@ Answer the questions below
 Question 3: Specifically, what is turned off that Windows is notifying you to turn on?
 Navigate to Virus & threat protection. You will see a specific setting flagged as “Off”.
 Answer: Real-time protection
+
+
+
+Task 5: Firewall & Network Protection
+A firewall controls traffic flowing in and out of your device via ports. Think of it as a security guard checking the ID of everything trying to enter or exit your network.
+Windows Firewall offers three profiles:
+Domain: Used when the computer is connected to a corporate domain controller.
+Private: Used for trusted home or work networks.
+Public: The default for untrusted networks (like coffee shop Wi-Fi). This is the most restrictive profile.
+You can manage these via the GUI or using the command WF.msc.
+
+Answer the questions below
