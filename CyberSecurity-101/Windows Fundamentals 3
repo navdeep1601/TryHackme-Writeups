@@ -129,3 +129,8 @@ BitLocker is a full-volume encryption feature included with Windows. It addresse
 BitLocker offers the best protection when used in conjunction with a TPM (Trusted Platform Module) version 1.2 or later. The TPM works with BitLocker to help protect user data and ensure the computer has not been tampered with while the system was offline.
 
 Answer the questions below
+Question 6: What must a user insert on computers that DO NOT have a TPM version 1.2 or later?
+If a computer lacks a TPM chip, BitLocker can still be used, but the encryption key cannot be stored on the motherboard. 
+Instead, the user must use a “USB startup key” to unlock the drive before Windows can boot.
+Answer: USB startup key
+
