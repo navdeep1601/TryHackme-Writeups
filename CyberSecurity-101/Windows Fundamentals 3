@@ -119,3 +119,7 @@ Core Isolation A virtualization-based security feature. Memory Integrity is a su
 Security Processor (TPM) The Trusted Platform Module (TPM) is a dedicated crypto-processor chip on the motherboard designed to secure hardware. It makes the machine tamper-resistant and stores cryptographic keys. It ensures that malicious software cannot tamper with the security functions of the machine.
 
 Answer the questions below
+Question: What is the TPM?
+Answer: Trusted Platform Module
+
+
