@@ -84,7 +84,7 @@ Cloud-delivered protection: Accesses the latest threat data from the cloud.
 Exclusions: Items you tell the antivirus to ignore.
 
 Answer the questions below
-Question 3: Specifically, what is turned off that Windows is notifying you to turn on?
+Question: Specifically, what is turned off that Windows is notifying you to turn on?
 Navigate to Virus & threat protection. You will see a specific setting flagged as “Off”.
 Answer: Real-time protection
 
@@ -99,7 +99,7 @@ Public: The default for untrusted networks (like coffee shop Wi-Fi). This is the
 You can manage these via the GUI or using the command WF.msc.
 
 Answer the questions below
-Question 4: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
+Question: If you were connected to airport Wi-Fi, what most likely will be the active firewall profile?
 Based on the definitions above, an airport offers a public connection. You can also verify this by checking the active profile in the Firewall settings.
 Answer: Public network
 
@@ -111,3 +111,11 @@ It also contains Exploit Protection, a built-in feature to mitigate common attac
 
 (No answer needed for this task)
 
+
+
+Task 7: Device Security
+This section covers hardware-based security features designed to protect the integrity of the device.
+Core Isolation A virtualization-based security feature. Memory Integrity is a subset of this which prevents attacks from inserting malicious code into high-security processes.
+Security Processor (TPM) The Trusted Platform Module (TPM) is a dedicated crypto-processor chip on the motherboard designed to secure hardware. It makes the machine tamper-resistant and stores cryptographic keys. It ensures that malicious software cannot tamper with the security functions of the machine.
+
+Answer the questions below
