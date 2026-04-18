@@ -7,3 +7,11 @@ In Windows Fundamentals 2, we covered various utilities, such as System Configur
 This module will attempt to provide an overview of the security features within the Windows operating system.
 
 Press the Start Machine button below to launch the attached virtual machine.
+If you wish to access the virtual machine via Remote Desktop, use the credentials below. 
+
+Machine IP: MACHINE_IP
+User: administrator
+Password: letmein123!
+
+Accept the Certificate when prompted, and you should be logged into the remote system now.
+Note: The virtual machine may take up to 3 minutes to load.
