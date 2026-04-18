@@ -123,3 +123,9 @@ Question: What is the TPM?
 Answer: Trusted Platform Module
 
 
+
+Task 8: BitLocker
+BitLocker is a full-volume encryption feature included with Windows. It addresses threats of data theft or exposure from lost or stolen computers.
+BitLocker offers the best protection when used in conjunction with a TPM (Trusted Platform Module) version 1.2 or later. The TPM works with BitLocker to help protect user data and ensure the computer has not been tampered with while the system was offline.
+
+Answer the questions below
