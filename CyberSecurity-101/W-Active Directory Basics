@@ -115,3 +115,148 @@ Now to set the password type this command: Set-ADAccountPassword sophie -Reset -
 The password set
 Here I have set the password: abcD12345*
 
+
+Now we have taken the flag. So we do not want Sophie to use our given password. We will force Sophie's account to show a reset option when Sophie will log into her account. The reset option showing process will be done from the Phillips account using this command: Set-ADUser -ChangePasswordAtLogon $true -Identity sophie -Verbose
+
+Reseting the password
+Now see that you cannot enter Sophie’s account using the password you provided to get the flag. See that the password reset option has been shown.
+Click ok
+
+The new password option
+The process of granting privileges to a user over some OU or other AD Object is called…
+
+Get kawsar uddin’s stories in your inbox
+Join Medium for free to get updates from this writer.
+
+Enter your email
+Subscribe
+Remember me for faster sign in
+Answer: delegation
+
+Note:
+Your first task as the new domain administrator is to check the existing AD OUs and users, as some recent changes have happened to the business. You have been given the following organizational chart and are expected to make changes to the AD to match it:
+Deleting extra OUs and users
+The first thing you should notice is that there is an additional department OU in your current AD configuration that doesn’t appear in the chart. We’ve been told it was closed due to budget cuts and should be removed from the domain. If you try to right-click and delete the OU, you will get the following error:
+
+By default, OUs are protected against accidental deletion. To delete the OU, we need to enable the Advanced Features in the View menu:
+This will show you some additional containers and enable you to disable the accidental deletion protection. To do so, right-click the OU and go to Properties. You will find a checkbox in the Object tab to disable the protection:
+
+Be sure to uncheck the box and try deleting the OU again. You will be prompted to confirm that you want to delete the OU, and as a result, any users, groups, or OUs under it will also be deleted.
+After deleting the extra OU, you should notice that for some of the departments, the users in the AD don’t match the ones in our organizational chart. Create and delete users as needed to match them.
+
+Delegation (Example: A member of an IT support group can change the username and password of the other group's low-privilege members from his account because this power is given to him by the organization using the delegate control option of the target OU in the Active directory)
+
+One of the nice things you can do in AD is to give specific users some control over some OUs. This process is known as delegation and allows you to grant users specific privileges to perform advanced tasks on OUs without needing a Domain Administrator to step in.
+
+One of the most common use cases for this is granting IT support the privilege to reset other low-privilege users' passwords. According to our organizational chart, Phillip is in charge of IT support, so we'd probably want to delegate the control of resetting passwords over the Sales, Marketing, and Management OUs to him.
+
+
+
+Task 5: Managing Computers in AD:
+
+After organizing the available computers, how many ended up in the Workstations OU?
+Answer: 7
+
+The workstation
+Is it recommendable to create separate OUs for Servers and Workstations? (yay/nay)
+Answer: yay
+
+
+
+Task 6: Group Policies:
+
+What is the name of the network share used to distribute GPOs to domain machines?
+Answer: SYSVOL
+
+Can a GPO be used to apply settings to users and computers? (yay/nay)
+Answer: Yay
+
+
+
+Task 7: Authentication Methods:
+
+Will a current version of Windows use NetNTLM as the preferred authentication protocol by default? (yay/nay)
+Answer: nay
+
+When referring to Kerberos, what type of ticket allows us to request further tickets known as TGS?
+Answer: Ticket Granting Ticket
+
+When using NetNTLM, is a user’s password transmitted over the network at any point? (yay/nay)
+Answer: nay
+
+Note:
+When using Windows domains, all credentials are stored in the Domain Controllers. Whenever a user tries to authenticate to a service using domain credentials, the service will need to ask the Domain Controller to verify if they are correct. Two protocols can be used for network authentication in Windows domains:
+Kerberos: Used by any recent version of Windows. This is the default protocol in any recent domain.
+NetNTLM: Legacy authentication protocol kept for compatibility purposes.
+While NetNTLM should be considered obsolete, most networks will have both protocols enabled. Let’s take a deeper look at how each of these protocols works.
+
+When Kerberos is used for authentication, the following process happens:
+The user sends their username and a timestamp encrypted using a key derived from their password to the Key Distribution Center (KDC), a service usually installed on the Domain Controller in charge of creating Kerberos tickets on the network.
+The KDC will create and send back a Ticket Granting Ticket (TGT), which will allow the user to request additional tickets to access specific services. The need for a ticket to get more tickets may sound a bit weird, but it allows users to request service tickets without passing their credentials every time they want to connect to a service. Along with the TGT, a Session Key is given to the user, which they will need to generate the following requests.
+
+Notice the TGT is encrypted using the krbtgt account’s password hash, and therefore the user can’t access its contents. It is essential to know that the encrypted TGT includes a copy of the Session Key as part of its contents, and the KDC has no need to store the Session Key as it can recover a copy by decrypting the TGT if needed.
+
+2. When a user wants to connect to a service on the network like a share, website, or database, they will use their TGT to ask the KDC for a Ticket Granting Service (TGS). TGS are tickets that allow connection only to the specific service they were created for. To request a TGS, the user will send their username and a timestamp encrypted using the Session Key, along with the TGT and a Service Principal Name (SPN), which indicates the service and server name we intend to access.
+As a result, the KDC will send us a TGS along with a Service Session Key, which we will need to authenticate to the service we want to access. The TGS is encrypted using a key derived from the Service Owner Hash. The Service Owner is the user or machine account that the service runs under. The TGS contains a copy of the Service Session Key on its encrypted contents so that the Service Owner can access it by decrypting the TGS.
+
+3. The TGS can then be sent to the desired service to authenticate and establish a connection. The service will use its configured account’s password hash to decrypt the TGS and validate the Service Session Key.
+
+NetNTLM(The NTLM hash is the cryptographic format in which user passwords are stored on Windows systems.) Authentication
+NetNTLM works using a challenge-response mechanism. The entire process is as follows:
+
+The client sends an authentication request (the domain name and the username )to the server they want to access.
+The server generates a random number and sends it as a challenge to the client.
+The client combines their NTLM password hash with the challenge (and other known data) to generate a response to the challenge and sends it back to the server for verification.
+The server forwards the challenge and the response to the Domain Controller for verification.
+The domain controller uses the challenge to recalculate the response and compares it to the original response sent by the client. If they both match, the client is authenticated; otherwise, access is denied. The authentication result is sent back to the server.
+The server forwards the authentication result to the client.
+Note that the user’s password (or hash) is never transmitted through the network for security.
+
+Note: The described process applies when using a domain account. If a local account is used, the server can verify the response to the challenge itself without requiring interaction with the domain controller since it has the password hash stored locally on its SAM(security account manager).
+
+
+
+Task 8: Trees, Forests, and Trusts:
+
+What is a group of Windows domains that share the same namespace called?
+Answer: tree
+
+What should be configured between two domains for a user in Domain A to access a resource in Domain B?
+Answer: 2 trust relationship
+Note:
+Trees
+Imagine, for example, that suddenly your company expands to a new country. The new country has different laws and regulations that require you to update your GPOs to comply. In addition, you now have IT people in both countries, and each IT team needs to manage the resources that correspond to each country without interfering with the other team. While you could create a complex OU structure and use delegations to achieve this, having a huge AD structure might be hard to manage and prone to human errors.
+Luckily for us, Active Directory supports integrating multiple domains so that you can partition your network into units that can be managed independently. If you have two domains that share the same namespace (thm.local in our example), those domains can be joined into a Tree.
+
+If our thm.local domain was split into two subdomains for UK and US branches, you could build a tree with a root domain of thm.local and two subdomains called uk.thm.local and us.thm.local, each with its AD, computers, and users:
+
+Press enter or click to view image in full size
+
+This partitioned structure gives us better control over who can access what in the domain. The IT people from the UK will have their own DC that manages the UK resources only. For example, a UK user would not be able to manage US users. In that way, the Domain Administrators of each branch will have complete control over their respective DCs, but not other branches’ DCs. Policies can also be configured independently for each domain in the tree.
+
+A new security group needs to be introduced when talking about trees and forests. The Enterprise Admins group will grant a user administrative privileges over all of an enterprise’s domains(These enterprise admins can control the both UK and US domain controller). Each domain would still have its Domain Admins with administrator privileges over their single domains and the Enterprise Admins who can control everything in the enterprise.
+
+Forests
+
+The domains you manage can also be configured in different namespaces. Suppose your company continues growing and eventually acquires another company called MHT Inc. When both companies merge, you will probably have different domain trees for each company, each managed by its own IT department. The union of several trees with different namespaces into the same network is known as a forest.
+
+Press enter or click to view image in full size
+
+Trust Relationships
+
+Having multiple domains organized in trees and forest allows you to have a nice compartmentalized network in terms of management and resources. But at a certain point, a user at THM UK might need to access a shared file in one of MHT ASIA servers. For this to happen, domains arranged in trees and forests are joined together by trust relationships.
+
+In simple terms, having a trust relationship between domains allows you to authorize a user from a domain THM UK to access resources from the domain MHT EU.
+
+The simplest trust relationship that can be established is a one-way trust relationship. In a one-way trust, if Domain AAA trusts Domain BBB, this means that a user on BBB can be authorized to access resources on AAA:
+
+Press enter or click to view image in full size
+
+The direction of the one-way trust relationship is contrary to that of the access direction.
+
+Two-way trust relationships can also be made to allow both domains to mutually authorize users from the other. By default, joining several domains under a tree or a forest will form a two-way trust relationship.
+
+It is important to note that having a trust relationship between domains doesn’t automatically grant access to all resources on other domains. Once a trust relationship is established, you have the chance to authorised users across different domains, but it’s up to you what is actually authorised or not.(It means a trust relationship domains have minimum privileges which users can access/see on what kind of data/file.)
+
+So, Happy learning happy journey.
+
