@@ -2,3 +2,22 @@ Active Directory Basics — TryHackMe
 
 This room will introduce the basic concepts and functionality provided by Active Directory.
 
+
+
+Task 2: Windows Domains:
+
+In a Windows domain, credentials are stored in a centralized repository called…
+Answer: active directory
+
+The server in charge of running the Active Directory services is called…
+Answer: Domain Controller
+
+Note:
+What is AD?
+=> Active directory is a directory database /server that stores users’ information such as usernames, phone numbers, emails, and many other credentials. The same network User’s things can be managed from an active directory. Privileges of the users are also controlled from the active directory.
+The server that runs the Active Directory services is known as a Domain Controller (DC).
+To overcome some limitations like manually creating users by visiting each computer separately, and fixing problems in any computer manually, creating a specific boundary for each user manually, we can use a Windows domain. Simply put a Windows domain for a group of users and computers under the administration of a given business. The main idea behind a domain is to centralize the administration of common components of a Windows computer network in a single repository called Active Directory (AD). The server that runs the Active Directory services is known as a Domain Controller (DC).
+The main advantages of having a configured Windows domain are:
+Centralized identity management: All users across the network can be configured from Active Directory with minimum effort.
+Managing security policies: You can configure security policies directly from Active Directory and apply them to users and computers across the network as needed.
+
