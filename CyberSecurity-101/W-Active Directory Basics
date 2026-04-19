@@ -71,3 +71,9 @@ Domain Users: Includes all existing user accounts in the domain.
 Domain Computers: Includes all existing computers in the domain.
 Domain Controllers: Includes all existing DCs on the domain.
 Active Directory Users and Computers
+
+
+To configure users, groups, or machines in Active Directory, we need to log in to the Domain Controller and run “Active Directory Users and Computers” from the start menu:
+This will open up a window where you can see the hierarchy of users, computers, and groups that exist in the domain. These objects are organized in Organizational Units (OUs) which are container objects that 
+allow you to classify users and machines(OUs are a group where all different groups are kept separately inside which means all groups are the child of the OU group, but each group is also called OU separately). OUs are mainly used to define sets of users with similar policing requirements. The people in the Sales department of your organization are likely to have a different set of policies applied than the people in IT, for example. Keep in mind that a user can only be a part of a single OU at a time.
+
