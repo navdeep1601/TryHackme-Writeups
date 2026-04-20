@@ -92,3 +92,14 @@ Answer: taskkill /PID 1516
 
 Conclusion
 In this room, we focused on the most practical commands for accessing a networked system over the command line.
+
+
+We intentionally omitted a few common commands as we didn’t see a real value for including them in a beginner room. We mention them below so that you know that the command line can be used for other tasks.
+
+chkdsk: checks the file system and disk volumes for errors and bad sectors.
+driverquery: displays a list of installed device drivers.
+sfc /scannow: scans system files for corruption and repairs them if possible.
+It is important to remember all the commands covered in the previous tasks; moreover, it is equally important to know that /? can be used with most commands to display a help page.
+In this room, we used the command more in two ways:
+Display text files: more file.txt
+Pipe long output to view it page by page: some_command | more
