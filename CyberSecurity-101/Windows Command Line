@@ -41,3 +41,12 @@ netstat -abon: Displays current network connections, listening ports, and the as
 
 
 Answer the questions below
+
+Which command can we use to look up the server’s physical address (MAC address)?
+Answer: ipconfig /all
+
+What is the name of the process listening on port 3389?
+Answer: TermService
+
+What is the IP address of your gateway?
+Answer: 10.10.0.1
