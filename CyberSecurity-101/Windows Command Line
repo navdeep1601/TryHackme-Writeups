@@ -103,3 +103,14 @@ It is important to remember all the commands covered in the previous tasks; more
 In this room, we used the command more in two ways:
 Display text files: more file.txt
 Pipe long output to view it page by page: some_command | more
+
+
+Answer the questions below
+
+The command shutdown /s can shut down a system. What is the command you can use to restart a system?
+Answer: shutdown /r
+
+What command can you use to abort a scheduled system shutdown?
+Answer: shutdown /a
+
+Thank You!
