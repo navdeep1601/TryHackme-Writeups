@@ -75,3 +75,11 @@ Answer the questions below
 What are the file’s contents in C:\Treasure\Hunt?
 Answer: THM{CLI_POWER}
 
+
+Task and Process Management
+tasklist: Displays a list of running processes.
+tasklist /FI "imagename eq [process_name]": Filters the tasklist for a specific process (e.g., notepad.exe).
+taskkill /PID [pid]: Terminates a process by its process ID (PID).
+
+
+Answer the questions below
