@@ -1,1 +1,14 @@
 TryHackMe — Windows Command Line | Cyber Security 101 (THM)
+
+
+Introduction
+Command Line Interfaces (CLI) can be challenging at first but offer speed and efficiency. For example, you can find your IP address much faster using CLI than through the graphical interface. CLI uses fewer system resources and allows easier automation and remote management.
+Learning Objectives
+This guide focuses on teaching how to use Windows Command Prompt cmd.exe to:
+Display system information
+Troubleshoot network configurations
+Manage files and folders
+Monitor running processes
+
+What is the default command line interpreter in the Windows environment?
+Answer: cmd.exe
