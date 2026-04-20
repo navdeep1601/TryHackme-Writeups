@@ -26,3 +26,18 @@ Answer: 10.0.20348.2655
 
 What is the hostname of the Windows VM?
 Answer: WINSRV2022-CORE
+
+
+Network Troubleshooting
+Network Configuration
+ipconfig: Shows basic network info like IP address and subnet mask.
+ipconfig /all: Displays detailed network info, including DNS servers and DHCP status.
+Network Troubleshooting
+ping [target_name]: Tests network connectivity by sending ICMP packets.
+tracert [target_name]: Traces the network route to a target, showing each hop along the way.
+More Networking Commands
+nslookup [domain]: Finds the IP address for a domain name.
+netstat -abon: Displays current network connections, listening ports, and the associated programs/process IDs.
+
+
+Answer the questions below
