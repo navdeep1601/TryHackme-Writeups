@@ -12,3 +12,14 @@ Monitor running processes
 
 What is the default command line interpreter in the Windows environment?
 Answer: cmd.exe
+
+Basic System Information
+ver: Shows the operating system version.
+systeminfo: Provides detailed system info like OS, processor, and memory.
+driverquery | more: Lists installed drivers, showing one page at a time.
+help: Displays help for specific commands.
+cls: Clears the command prompt screen.
+Answer the questions below
+
+What is the OS version of the Windows VM?
+Answer: 10.0.20348.2655
