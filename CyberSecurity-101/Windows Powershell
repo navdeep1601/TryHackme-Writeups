@@ -81,3 +81,8 @@ The operator -eq (i.e. "equal to") is part of a set of comparison operators that
 -ge: "greater than or equal to". This is the non-strict version of the previous operator. A combination of -gt and -eq.
 -lt: "less than". Like its counterpart, "greater than", this is a strict operator. It will include only objects which are strictly below a certain value.
 -le: "less than or equal to". Just like its counterpart -ge, this is the non-strict version of the previous operator. A combination of -lt and -eq.
+
+Common Commands:
+Sort-Object (sorts objects by property) – no direct CMD equivalent, similar to sort in Linux.
+Where-Object (filter objects based on conditions) – similar to grep in Linux.
+Select-Object (select properties from objects) – used for refining output.
