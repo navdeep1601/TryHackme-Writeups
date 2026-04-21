@@ -141,3 +141,7 @@ It’s time for another small challenge. Some vital service has been installed o
 navigate safely. But something isn’t working as expected, and the captain wonders why. Investigating, they find out the truth, at last: the 
 service has been tampered with! The shady lad from before has modified the service DisplayName to reflect his very own motto, the same that he put
 in his user description.
+
+With this information and the PowerShell knowledge you have built so far, can you find the service name?
+Answer: p1r4t3-s-compass
+
