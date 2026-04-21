@@ -9,3 +9,9 @@ Learn what PowerShell is and its capabilities.
 Understand the basic structure of PowerShell’s language.
 Learn and run some basic PowerShell commands.
 Understand PowerShell’s many applications in the cyber security industry.
+
+What Is PowerShell
+From the official Microsoft page: “PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.”
+PowerShell is a cross-platform task automation tool combining a command-line shell, scripting language, and configuration management framework. It’s object-oriented (handles complex data types) and built on the .NET framework, unlike text-based CMD, which only processes plain text. Initially created for Windows, it now supports macOS and Linux.
+Key Comparison: PowerShell deals with objects (with properties and methods), while CMD deals with plain text.
+
