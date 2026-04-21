@@ -67,3 +67,6 @@ Answer: Get-ChildItem -Path C:\Users
 
 How many items are displayed by the command described in the previous question?
 Answer: 4
+
+
+Task 5:Piping, Filtering, and Sorting Data
