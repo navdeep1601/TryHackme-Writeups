@@ -148,4 +148,6 @@ Answer: p1r4t3-s-compass
 
 Task 8:Scripting
 
-
+PowerShell is a powerful scripting language used for automating tasks across multiple systems. One key feature is remote execution using the Invoke-Command cmdlet.
+Key Command:
+Invoke-Command -ComputerName RemotePC -ScriptBlock {Get-Service}: Runs the Get-Service command on a remote computer named "RemotePC."
