@@ -10,7 +10,8 @@ Understand the basic structure of PowerShell’s language.
 Learn and run some basic PowerShell commands.
 Understand PowerShell’s many applications in the cyber security industry.
 
-What Is PowerShell
+Task 2:What Is PowerShell
+
 From the official Microsoft page: “PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework.”
 PowerShell is a cross-platform task automation tool combining a command-line shell, scripting language, and configuration management framework. It’s object-oriented (handles complex data types) and built on the .NET framework, unlike text-based CMD, which only processes plain text. Initially created for Windows, it now supports macOS and Linux.
 Key Comparison: PowerShell deals with objects (with properties and methods), while CMD deals with plain text.
@@ -24,9 +25,8 @@ What do we call the advanced approach used to develop PowerShell?
 Answer: object-oriented
 
 
-PowerShell Basics
+Task 3:PowerShell Basics
 PowerShell uses cmdlets (command-lets), which follow a consistent Verb-Noun naming convention, making commands easier to understand.
-
 Common Commands:
 Get-Content (read file content) – similar to type in CMD and cat in Linux.
 Set-Location (change directory) – similar to cd in CMD/Linux.
@@ -45,7 +45,8 @@ What is the command to retrieve some example usage for the cmdlet New-LocalUser?
 Answer: Get-Help New-LocalUser -examples
 
 
-Navigating the File System and Working with Files
+Task 4:Navigating the File System and Working with Files
+
 PowerShell offers cmdlets for file system management, similar to CMD or Linux but with a unified approach.
 
 Get-ChildItem (list directory contents) – like dir in CMD or ls in Linux.
@@ -55,6 +56,7 @@ Remove-Item (delete file/directory) – like del or rmdir in CMD.
 Get-Content (read file content) – similar to type in CMD and cat in Linux.
 Example Commands:
 Get-Content -Path C:\Users: Displays contents of the C:\Users directory.
+
 Answer the questions below
 
 What cmdlet can you use instead of the traditional Windows command type?
