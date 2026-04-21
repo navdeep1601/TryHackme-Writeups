@@ -105,3 +105,8 @@ Common Commands:
 Get-ComputerInfo: Retrieves detailed system information (like systeminfo in CMD).
 Get-NetIPConfiguration: Shows network interface details (similar to ipconfig in CMD).
 Get-LocalUser: Lists local user accounts (similar to net user in CMD).
+
+Answer the questions below
+
+Other than your current user and the default “Administrator” account, what other user is enabled on the target machine?
+Answer: p1r4t3
