@@ -61,3 +61,9 @@ Answer the questions below
 
 What cmdlet can you use instead of the traditional Windows command type?
 Answer: Get-Content
+
+What PowerShell command would you use to display the content of the “C:\Users” directory? [for the sake of this question, avoid the use of quotes (“ or ‘) in your answer]
+Answer: Get-ChildItem -Path C:\Users
+
+How many items are displayed by the command described in the previous question?
+Answer: 4
