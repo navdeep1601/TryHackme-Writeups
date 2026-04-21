@@ -1,1 +1,11 @@
 TryHackMe — Windows PowerShell | Cyber Security 101 
+
+
+Introduction
+Ahoy there! If you’re here, you’ve either heard whispers of the marvels of PowerShell and want to discover more, or you’ve sailed over from the first room of the Command Line module — Windows Command Line. Either way, you’re about to embark on a journey to discover the marvels of this powerful shell, learning how to use it to uncover the secrets of any Windows system. Avast, then — on board!
+Learning Objectives
+This is the second room in the Command Line module. It is an introductory room to PowerShell, the second — only historically — command-line utility built for the Windows operating system.
+Learn what PowerShell is and its capabilities.
+Understand the basic structure of PowerShell’s language.
+Learn and run some basic PowerShell commands.
+Understand PowerShell’s many applications in the cyber security industry.
