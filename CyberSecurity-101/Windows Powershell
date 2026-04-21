@@ -133,3 +133,11 @@ Answer the questions below
 
 In the previous task, you found a marvellous treasure carefully hidden in the target machine. What is the hash of the file that contains it?
 Answer: 71FC5EC11C2497A32F8F08E61399687D90ABE6E204D2964DF589543A613F3E08
+
+What property retrieved by default by Get-NetTCPConnection contains information about the process that has started the connection?
+Answer: OwningProcess
+
+It’s time for another small challenge. Some vital service has been installed on this pirate ship to guarantee that the captain can always 
+navigate safely. But something isn’t working as expected, and the captain wonders why. Investigating, they find out the truth, at last: the 
+service has been tampered with! The shady lad from before has modified the service DisplayName to reflect his very own motto, the same that he put
+in his user description.
