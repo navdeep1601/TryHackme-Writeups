@@ -34,3 +34,10 @@ Get-Command (list all commands) – helps discover available cmdlets.
 Launching PowerShell: You can start PowerShell via the Start Menu, Run dialog (Win + R), or typing powershell in CMD.
 
 Answer the questions below
+
+How would you retrieve a list of commands that start with the verb Remove? [for the sake of this question, avoid the use of quotes (" or ') in your answer]
+Answer: Get-Command -Name Remove*
+
+What cmdlet has its traditional counterpart echo as an alias?
+Answer: Write-Output
+
