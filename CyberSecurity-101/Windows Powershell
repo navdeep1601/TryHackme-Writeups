@@ -15,3 +15,11 @@ From the official Microsoft page: “PowerShell is a cross-platform task automat
 PowerShell is a cross-platform task automation tool combining a command-line shell, scripting language, and configuration management framework. It’s object-oriented (handles complex data types) and built on the .NET framework, unlike text-based CMD, which only processes plain text. Initially created for Windows, it now supports macOS and Linux.
 Key Comparison: PowerShell deals with objects (with properties and methods), while CMD deals with plain text.
 
+CMD vs PowerShell:
+CMD is text-based (like dir, echo).
+PowerShell returns objects (e.g., Get-ChildItem, Write-Output).
+Answer the questions below
+
+What do we call the advanced approach used to develop PowerShell?
+Answer: object-oriented
+
