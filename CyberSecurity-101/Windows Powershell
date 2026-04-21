@@ -23,3 +23,14 @@ Answer the questions below
 What do we call the advanced approach used to develop PowerShell?
 Answer: object-oriented
 
+
+PowerShell Basics
+PowerShell uses cmdlets (command-lets), which follow a consistent Verb-Noun naming convention, making commands easier to understand.
+
+Common Commands:
+Get-Content (read file content) – similar to type in CMD and cat in Linux.
+Set-Location (change directory) – similar to cd in CMD/Linux.
+Get-Command (list all commands) – helps discover available cmdlets.
+Launching PowerShell: You can start PowerShell via the Start Menu, Run dialog (Win + R), or typing powershell in CMD.
+
+Answer the questions below
