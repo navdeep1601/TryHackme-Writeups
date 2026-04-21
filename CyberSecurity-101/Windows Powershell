@@ -95,3 +95,6 @@ Answer the questions below
 
 How would you retrieve the items in the current directory with size greater than 100? [for the sake of this question, avoid the use of quotes (“ or ‘) in your answer]
 Answer: Get-ChildItem | Where-Object -Property Length -gt 100
+
+
+Task 6:System and Network Information
