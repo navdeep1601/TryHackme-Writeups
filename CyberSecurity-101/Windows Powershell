@@ -41,3 +41,5 @@ Answer: Get-Command -Name Remove*
 What cmdlet has its traditional counterpart echo as an alias?
 Answer: Write-Output
 
+What is the command to retrieve some example usage for the cmdlet New-LocalUser?
+Answer: Get-Help New-LocalUser -examples
