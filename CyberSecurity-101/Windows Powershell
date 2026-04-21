@@ -162,3 +162,14 @@ Answer: Invoke-Command -ComputerName RoyalFortune -ScriptBlock {Get-Service}
 
 
 Task 9:Conclusion
+
+Well done, mateys! You’ve successfully navigated the treacherous waters of PowerShell, uncovering hidden treasures and elusive services aboard TheBlackPearl.
+With these tools in your belt, you’re well-equipped to explore even the most guarded corners of any Windows system.
+Remember, a true pirate never stops seeking treasure—so keep honing your skills, and who knows what pearls you’ll discover in the next adventure? Until then, may your cmdlets be sharp and your scripts swift. Fair winds, and happy hunting!
+To continue building up your command line skills, proceed to the Linux Command Line room, up next in the module.
+
+Answer the questions below
+
+I'm ready to go on to the next adventure!
+Answer:No answer needed
+
