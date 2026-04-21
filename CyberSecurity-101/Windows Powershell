@@ -43,3 +43,16 @@ Answer: Write-Output
 
 What is the command to retrieve some example usage for the cmdlet New-LocalUser?
 Answer: Get-Help New-LocalUser -examples
+
+
+Navigating the File System and Working with Files
+PowerShell offers cmdlets for file system management, similar to CMD or Linux but with a unified approach.
+
+Get-ChildItem (list directory contents) – like dir in CMD or ls in Linux.
+Set-Location (navigate directories) – like cd in CMD/Linux.
+New-Item (create a file or directory) – similar to mkdir or touch.
+Remove-Item (delete file/directory) – like del or rmdir in CMD.
+Get-Content (read file content) – similar to type in CMD and cat in Linux.
+Example Commands:
+Get-Content -Path C:\Users: Displays contents of the C:\Users directory.
+Answer the questions below
