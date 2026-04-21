@@ -86,3 +86,8 @@ Common Commands:
 Sort-Object (sorts objects by property) – no direct CMD equivalent, similar to sort in Linux.
 Where-Object (filter objects based on conditions) – similar to grep in Linux.
 Select-Object (select properties from objects) – used for refining output.
+
+
+Example:
+Get-ChildItem | Where-Object -Property Length -gt 100: List files greater than 100 bytes in size.
+Answer the questions below
