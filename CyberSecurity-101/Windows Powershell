@@ -56,3 +56,6 @@ Get-Content (read file content) – similar to type in CMD and cat in Linux.
 Example Commands:
 Get-Content -Path C:\Users: Displays contents of the C:\Users directory.
 Answer the questions below
+
+What cmdlet can you use instead of the traditional Windows command type?
+Answer: Get-Content
