@@ -70,3 +70,6 @@ Answer: 4
 
 
 Task 5:Piping, Filtering, and Sorting Data
+
+PowerShell uses piping (|) to send the output of one cmdlet as input to another. Unlike CMD/Linux, PowerShell pipes objects rather than text, enabling more flexible data manipulation.
+Here, Where-Object filters the files by their Extension property, ensuring that only files with extension equal (-eq) to .txt are listed.
