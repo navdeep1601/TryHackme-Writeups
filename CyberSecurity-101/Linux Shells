@@ -15,3 +15,21 @@ Answer the questions below
 
 Who is the facilitator between the user and the OS?
 Answer: Shell
+
+
+
+Task 2:How To Interact With a Shell?
+
+Once the machine opens in the split-screen view, you will have the shell prompt ready to accept commands.
+
+LinuxShell
+user@ubuntu:~$
+
+Most Linux distributions use Bash (Bourne Again Shell) as their default shell. However, the default shell displayed when you open the terminal depends on your Linux distribution.
+To see your current working directory, you can execute pwd, which stands for Print Working Directory, as shown in the terminal below:
+
+Check Current Working Directory
+user@ubuntu:~$ pwd
+/home/user
+
+
