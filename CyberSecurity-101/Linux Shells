@@ -74,3 +74,8 @@ Answer: grep
 
 Task 3:Types of Linux Shells
 
+Linux distributions come with several types of shells, each with its own unique set of features. You can use the echo $SHELL command to see which shell you are currently using. Additionally, the file /etc/shells lists all available shells on your system. Some popular shells include:
+Current Shell
+
+user@ubuntu:~$ echo $SHELL
+/bin/bash
