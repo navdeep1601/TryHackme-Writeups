@@ -240,3 +240,10 @@ Answer: Loops
 
 Task 5:The Locker Script
 
+In the previous task, we studied variables, loops, and conditional statements in shell scripting. Let’s use that knowledge to create a shell script that utilizes all these components.
+
+Requirement
+A user has a locker in a bank. To secure the locker, we have to have a script in place that verifies the user before opening it. When executed, the script should ask the user for their name, company name, and PIN. If the user enters the following details, they should be allowed to enter, or else they should be denied access.
+Username: John
+Company name: Tryhackme
+PIN: 7385
