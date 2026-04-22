@@ -53,3 +53,7 @@ this is a sample file
 this is the second line of the file
 The grep command is a very popular command among Linux users. This powerful command can search for any word or pattern inside a file. Suppose you want to search for specific entries in a huge file. You can use the grep command along with the pattern of those entries, which will extract them for you. It also helps you to search for a specific keyword in a big file.
 The following terminal shows us how to use the grep command to search for the word “THM” inside a big text file. The output displays the specific line of that text file containing this word.
+
+Searching a Word In File
+user@ubuntu:~$ grep THM dictionary.txt
+The flag is THM
