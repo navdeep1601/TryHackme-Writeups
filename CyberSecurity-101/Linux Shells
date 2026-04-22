@@ -148,3 +148,14 @@ The script below displays a string on the screen: “Hey, what’s your name?”
 echo "Hey, what’s your name?"
 read name
 echo "Welcome, $name"
+
+
+To execute the script, we first need to make sure that the script has execution permissions. To give these permissions to the script, we can type the following command in our terminal:
+Execution Permission to Script
+
+user@ubuntu:~$ chmod +x variable_script.sh
+Script Execution
+user@ubuntu:~$ ./variable_script.sh
+Hey, What's your name?
+John
+Welcome, John
