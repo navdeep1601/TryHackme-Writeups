@@ -298,3 +298,49 @@ Answer: 7385
 
 
 Task 6:Practical Exercise
+
+We have placed a script on the default user directory /home/user of the attached Ubuntu machine. This script searches for a specific keyword in all the files (with .log extension) in a specific directory.
+Note: Some changes are required inside the script file before you execute it. When you open the machine according to the instructions in task #2, you will be able to gain the session as a normal user. However, we recommend you to become the root user in order to search for the flag in all the files of the given directory. To become one, you only need to type the following command and enter the password of the user:
+
+Become Root User
+
+user@ubuntu:~$ sudo su
+[sudo] password for user: user@Tryhackme
+root@tryhackme:/home/user#
+You can make the changes in the script file by keeping in view the following details:
+
+Flag: thm-flag01-script
+Directory: /var/log
+Hint: Look for empty double quotes " " inside the script file and fill them. Make sure not to leave any space between them.
+
+
+Answer the questions below
+
+Which file has the keyword?
+Answer: authentication.log
+
+Where is the cat sleeping?
+Answer: under the table
+
+#!/bin/bash
+# nano flag_hunt.sh
+# Defining the directory to search our flag
+directory="/var/log"
+
+# Defining the flag to search
+flag="thm-flag01-script"
+
+echo "Flag search in directory: $directory in progress..."
+
+# Defining for loop to iterate over all the files with .log extension in the defined directory
+for file in "$directory"/*.log; do
+ # Check if the file contains the flag
+if grep -q "$flag" "$file"; then
+ # Print the filename
+echo "Flag found in: $(basename "$file")"
+fi
+done
+./flag_hunt.sh
+grep "cat" /var/log/authentication.log
+Thank you!
+
