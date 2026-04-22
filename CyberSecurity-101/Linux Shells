@@ -141,3 +141,10 @@ We are all set to write our first script now. There are some fundamental buildin
 
 Variables
 A variable stores a value inside it. Suppose you need to use some complex values, like a URL, a file path, etc., several times in your script. Instead of memorizing and writing them repeatedly, you can store them in a variable and use the variable name wherever you need it.
+
+The script below displays a string on the screen: “Hey, what’s your name?” This is done by echo command. The second line of the script contains the code read name. read is used to take input from the user, and name is the variable in which the input would be stored. The last line uses echo to display the welcome line for the user, along with its name stored in the variable.
+# Defining the Interpreter 
+#!/bin/bash
+echo "Hey, what’s your name?"
+read name
+echo "Welcome, $name"
