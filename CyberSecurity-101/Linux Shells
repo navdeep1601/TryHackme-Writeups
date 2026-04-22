@@ -38,3 +38,11 @@ However, you can change your directory as well. To do that, you can use cd (shor
 Change Directory
 user@ubuntu:~$ cd Desktop
 user@ubuntu:~$/Desktop$
+
+While using the GUI of an OS, you can see the contents of a directory on the screen. However, while using the shell, to see the contents of a directory, you must enter the following command:
+
+List Directory Contents
+user@ubuntu:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+If you want to read the contents of a file, you can type the following command in your shell:
+
