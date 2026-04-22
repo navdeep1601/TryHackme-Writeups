@@ -32,4 +32,9 @@ Check Current Working Directory
 user@ubuntu:~$ pwd
 /home/user
 
+In the results of the above command, you can see that your current working directory is /home/ubuntu
+However, you can change your directory as well. To do that, you can use cd (short for Change Directory), as shown in the terminal below:
 
+Change Directory
+user@ubuntu:~$ cd Desktop
+user@ubuntu:~$/Desktop$
