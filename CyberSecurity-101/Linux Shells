@@ -79,3 +79,20 @@ Current Shell
 
 user@ubuntu:~$ echo $SHELL
 /bin/bash
+
+You can also list down the available shells in your Linux OS. The file /etc/shells contains all the installed shells on a Linux system. You can list down the available shells in your Linux OS by typing cat /etc/shells in the terminal:
+
+Available Shells
+user@ubuntu:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+/bin/zsh
+/usr/bin/zsh
