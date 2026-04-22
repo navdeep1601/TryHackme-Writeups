@@ -128,3 +128,10 @@ Task 4:Shell Scripting and Components
 
 Shell scripting allows users to automate repetitive tasks by combining several commands into a single executable file, which can be run at once. A basic shell script includes several key components:
 Shebang (#!): Defines the interpreter used to run the script (e.g., #!/bin/bash for Bash).
+
+Variables: Allow storing values that can be used throughout the script.
+Loops: Repeatedly execute a set of commands.
+Conditional Statements: Execute different code depending on certain conditions.
+user@ubuntu:~$ nano first_script.sh
+first_script.sh
+#!/bin/bash
