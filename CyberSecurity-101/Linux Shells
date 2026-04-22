@@ -57,3 +57,15 @@ The following terminal shows us how to use the grep command to search for the wo
 Searching a Word In File
 user@ubuntu:~$ grep THM dictionary.txt
 The flag is THM
+
+
+Answer the questions below
+
+What is the default shell in most Linux distributions?
+Answer: Bash
+
+Which command utility is used to list down the contents of a directory?
+Answer: ls
+
+Which command utility can help you search for anything in a file?
+Answer: grep
