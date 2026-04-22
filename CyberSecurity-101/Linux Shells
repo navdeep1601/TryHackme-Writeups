@@ -194,3 +194,18 @@ fi
 Following is the terminal showing the script execution when the user name matches the authorized one defined in the script:
 conditional_script.sh
 
+user@ubuntu:~$ ./conditional_script.sh
+Please enter your name first:
+Stewart
+Welcome, Stewart! Here is the secret: THM_Script
+However, the following terminal shows the script execution when the user name does not match the authorized one defined in the script:
+
+conditional_script.sh
+
+user@ubuntu:~$ ./conditional_script.sh
+Please enter your name first:
+Alex
+Sorry! You are not authorized to access the secret.
+Comments
+# Defining the Interpreter
+#!/bin/bash
