@@ -275,3 +275,16 @@ if [ "$username" = "John" ] && [ "$companyname" = "Tryhackme" ] && [ "$pin" = "7
 else
         echo "Authentication Denied!!"
 fi
+
+
+Script Execution
+Executing the Locker Script
+
+user@ubuntu:~$ ./locker_script.sh
+Enter your Username:
+John
+Enter your Company name:
+Tryhackme
+Enter your PIN:
+1349
+Authentication Denied!!
