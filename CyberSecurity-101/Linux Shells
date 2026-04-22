@@ -110,3 +110,15 @@ There are many types of Linux shells. We will discuss a few of them and their fe
 Bourne Again Shell (Bash): Default in most Linux distributions, with powerful scripting capabilities and features like command history and tab completion.
 Friendly Interactive Shell (Fish): Focuses on ease of use with auto spell correction, customizable themes, and syntax highlighting.
 Z Shell (Zsh): Known for its extensive customization options and advanced tab completion features, but may run slightly slower due to its many features.
+
+Answer the questions below
+
+Which shell comes with syntax highlighting as an out-of-the-box feature?
+Answer: Fish
+
+Which shell does not have auto spell correction?
+Answer: Bash
+
+Which command displays all the previously executed commands of the current session?
+Answer: history
+
