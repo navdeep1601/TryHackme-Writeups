@@ -209,3 +209,17 @@ Sorry! You are not authorized to access the secret.
 Comments
 # Defining the Interpreter
 #!/bin/bash
+
+# Asking the user to enter a value.
+echo "Please enter your name first:"
+# Storing the user input value in a variable.
+read name
+# Checking if the name the user entered is equal to our required name.
+if [ "$name" = "Stewart" ]; then
+# If it equals the required name, the following line will be displayed.
+echo "Welcome Stewart! Here is the secret: THM_Script"
+# Defining the sentence to be displayed if the condition fails.
+else
+        echo "Sorry! You are not authorized to access the secret."
+fi
+Note: Other types of variables, loops, and conditional statements can also be used to achieve different tasks. Moreover, multiple lines of comments can also be added within a single comment. However, it is not the scope of this room.
