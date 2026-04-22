@@ -103,3 +103,10 @@ To switch between these shells, you can type the shell name that is present on y
 Switch Shell
 user@ubuntu:~$ zsh
 user@ubuntu ~ $
+
+
+If you want to permanently change your default shell, you can use the command: chsh -s /usr/bin/zsh. This will make this shell as the default shell for your terminal.
+There are many types of Linux shells. We will discuss a few of them and their features.
+Bourne Again Shell (Bash): Default in most Linux distributions, with powerful scripting capabilities and features like command history and tab completion.
+Friendly Interactive Shell (Fish): Focuses on ease of use with auto spell correction, customizable themes, and syntax highlighting.
+Z Shell (Zsh): Known for its extensive customization options and advanced tab completion features, but may run slightly slower due to its many features.
