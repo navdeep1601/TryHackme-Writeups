@@ -96,3 +96,10 @@ user@ubuntu:~$ cat /etc/shells
 /usr/bin/screen
 /bin/zsh
 /usr/bin/zsh
+
+
+To switch between these shells, you can type the shell name that is present on your OS, and it will open for you, as can be seen below:
+
+Switch Shell
+user@ubuntu:~$ zsh
+user@ubuntu ~ $
