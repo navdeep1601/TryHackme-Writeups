@@ -135,3 +135,9 @@ Conditional Statements: Execute different code depending on certain conditions.
 user@ubuntu:~$ nano first_script.sh
 first_script.sh
 #!/bin/bash
+
+
+We are all set to write our first script now. There are some fundamental building blocks of a script that together make an efficient script. Let’s learn and utilize these script constructs to write one script ourselves.
+
+Variables
+A variable stores a value inside it. Suppose you need to use some complex values, like a URL, a file path, etc., several times in your script. Instead of memorizing and writing them repeatedly, you can store them in a variable and use the variable name wherever you need it.
