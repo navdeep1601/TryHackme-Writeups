@@ -3,3 +3,10 @@ TryHackMe — Linux Shells | Cyber Security 101 (THM)
 
 
 Task 1:Introduction to Linux Shells
+
+As regular users of operating systems, we all extensively use the Graphical User Interface (GUI) to carry out most operations. It takes a few clicks on different options, and your task is done. However, you can perform almost every task by writing commands in the CLI of your operating system rather than using the GUI. The shells give you some great features for the commands you write in your CLI. This way of interacting with the OS is more efficient and resource-friendly.
+Learning Objectives
+Learn interaction with Linux shell
+Use basic shell commands
+Explore the types of Linux shells available
+Write some shell scripts
