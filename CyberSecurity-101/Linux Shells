@@ -159,3 +159,14 @@ user@ubuntu:~$ ./variable_script.sh
 Hey, What's your name?
 John
 Welcome, John
+
+
+Loops
+# Defining the Interpreter 
+#!/bin/bash
+for i in {1..10};
+do
+echo $i
+done
+The first line has the variable i that will iterate from 1 to 10 and execute the below code every time. do indicates the start of the loop code, and done indicates the end. In between them, the code we want to execute in the loop is to be written. The for loop will take each number in the brackets and assign it to the variable i in each iteration. The echo $i will display this variable’s value every iteration.
+Now, let’s execute the script after giving it the execution permission.
