@@ -223,3 +223,16 @@ else
         echo "Sorry! You are not authorized to access the secret."
 fi
 Note: Other types of variables, loops, and conditional statements can also be used to achieve different tasks. Moreover, multiple lines of comments can also be added within a single comment. However, it is not the scope of this room.
+
+
+Answer the questions below
+
+What is the shebang used in a Bash script?
+Answer: #!/bin/bash
+
+Which command gives executable permissions to a script?
+Answer: chmod +x
+
+Which scripting functionality helps us configure iterative tasks?
+Answer: Loops
+
