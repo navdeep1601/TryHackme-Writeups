@@ -222,3 +222,11 @@ ACK Packet: The three-way handshake is completed as the client sends an ACK pack
 Similar to UDP, TCP identifies the process of initiating or waiting (listening) for a connection using port numbers. As stated, a valid port number ranges between 1 and 65535 because it uses two octets and port 0 is reserved.
 
 Answer the questions below
+
+5.1 Which protocol requires a three-way handshake?
+Answer: TCP
+
+5.2 What is the approximate number of port numbers (in thousands)?
+Answer: 65
+
+Port numbers range from 1 to 65535 because they use two octets (each with 8 bits). This means the highest possible port number is 65535. When we round this number to thousands, we get about 65 thousand.
