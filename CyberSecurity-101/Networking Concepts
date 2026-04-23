@@ -130,3 +130,9 @@ Answer: 3
 
 
 Task 4:IP Addresses and Subnets
+
+When you hear the word IP address, you might think of an address like 192.168.0.1 or something less common, such as 172.16.159.243. In both cases, you are right. Both of these are IP addresses; IPv4 (IP version 4) addresses to be specific.
+Every host on the network needs a unique identifier for other hosts to communicate with him. Without a unique identifier, the host cannot be found without ambiguity. When using the TCP/IP protocol suite, we need to assign an IP address for each device connected to the network.
+One analogy of an IP address is your home postal address. Your postal address allows you to receive letters and parcels from all over the world. Furthermore, it can identify your home without ambiguity; otherwise, you cannot shop online!
+As you might already know, we have IPv4 and IPv6 (IP version 6). IPv4 is still the most common, and whenever you come across a text mentioning IP without the version, we expect them to mean IPv4.
+So, what makes an IP address? An IP address comprises four octets, i.e., 32 bits. Being 8 bits, an octet allows us to represent a decimal number between 0 and 255.
