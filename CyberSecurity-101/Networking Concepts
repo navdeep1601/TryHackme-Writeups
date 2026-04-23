@@ -83,3 +83,18 @@ The application layer is the top layer, and you might have encountered many of i
 
 Summary
 Reading about the ISO OSI model for the first time can be intimidating; however, it becomes easier as you progress in your study of networking protocols. To help with your studies.
+
+
+Answer the questions below
+
+2.1 Which layer is responsible for connecting one application to another? (Question Hint The answer format should be layer followed by a number, for example, Layer 1.)
+Answer: Layer 5
+
+2.2 Which layer is responsible for routing packets to the proper network?
+Answer: Layer 3
+
+2.3 In the OSI model, which layer is responsible for encoding the application data?
+Answer: Layer 6
+
+2.4 Which layer is responsible for transferring data between hosts on the same network segment?
+Answer: Layer 2
