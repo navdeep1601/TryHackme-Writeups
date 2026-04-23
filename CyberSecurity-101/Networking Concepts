@@ -319,3 +319,11 @@ HTTP/1.1 200 OK
 Content-Type: text/html
 [...]
 Connection closed by foreign host.
+
+
+Answer the questions below
+
+7.1 Use telnet to connect to the web server on MACHINE_IP. What is the name and version of the HTTP server? (Question Hint The answer should be in the format name/version)
+To find the name and version of the HTTP server
+Connect to the web server:
+Answer: lighttpd/1.4.63
