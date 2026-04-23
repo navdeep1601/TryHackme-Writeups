@@ -331,3 +331,10 @@ Answer: lighttpd/1.4.63
 7.2 What flag did you get when you viewed the page?
 http://MACHINE_IP:80
 Answer: THM{TELNET_MASTER}
+
+
+
+Task 8:Conclusion
+In this room, we covered the ISO OSI and TCP/IP models, comparing and contrasting the two. We also covered IP addresses and subnets, briefly explaining routing. Furthermore, after diving into TCP and UDP, we explained encapsulation. For demonstration purposes, we used telnet to “talk” to different servers over TCP.
+Now that you have finished Networking Concepts, it is time to join Networking Essentials.
+
