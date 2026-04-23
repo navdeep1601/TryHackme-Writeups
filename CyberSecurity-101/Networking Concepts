@@ -121,3 +121,8 @@ In the following tasks, we will cover the IP protocol from the Internet layer an
 
 Answer the questions below
 
+3.1 To which layer does HTTP belong in the TCP/IP model?
+Answer: Application Layer
+
+3.2 How many layers of the OSI model does the application layer in the TCP/IP model cover?
+Answer: 3
