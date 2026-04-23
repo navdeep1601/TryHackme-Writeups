@@ -57,3 +57,8 @@ We expect to see two MAC addresses in each frame in real network communication o
 The destination data-link address (MAC address) highlighted in yellow
 The source data link address (MAC address) is highlighted in blue
 The remaining bits show the data being sent
+
+Layer 3: Network Layer
+The data link layer focuses on sending data between two nodes on the same network segment. The network layer, i.e., layer 3, is concerned with sending data between different networks. In more technical terms, the network layer handles logical addressing and routing, i.e., finding a path to transfer the network packets between the diverse networks.
+In the data link layer, we gave an example of one company office with ten computers, where the data link layer is responsible for providing a connection between them. Let’s say that this company has multiple offices distributed across various cities, countries, or even continents. The network layer is responsible for connecting the different offices together.
+The network below shows that computers A and B are connected, although on different networks. You can also notice two paths connecting the two computers; the network layer will route the network packets through the path it deems better.
