@@ -255,4 +255,15 @@ Depending on the protocol, The link layer adds the proper link layer header and 
 The router removes the link layer header and trailer, inspects the IP destination, among other fields, and routes the packet to the proper link. Each router repeats this process until it reaches the router of the target server.
 The steps will then be reversed as the packet reaches the router of the destination network. As we cover additional protocols, we will revisit this exercise and create a more in-depth version.
 
+
 Answer the questions below
+
+6.1 On a WiFi, within what will an IP packet be encapsulated?
+Answer: Frame
+
+6.2 What do you call the UDP data unit that encapsulates the application data?
+Answer: Datagram
+
+6.3 What do you call the data unit that encapsulates the application data sent over TCP?
+Answer: Segment
+
