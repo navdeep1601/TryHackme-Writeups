@@ -110,3 +110,14 @@ Transport Layer: This is layer 4.
 Internet Layer: This is layer 3. The OSI model’s network layer is called the Internet layer in the TCP/IP model.
 Link Layer: This is layer 2.
 
+Many modern networking textbooks show the TCP/IP model as five layers instead of four. For example, in Computer Networking: A Top-Down Approach 8th Edition, Kurose and Ross describe the following five-layer Internet protocol stack by including the physical layer:
+
+Application
+Transport
+Network
+Link
+Physical
+In the following tasks, we will cover the IP protocol from the Internet layer and the UDP and TCP protocols from the transport layer.
+
+Answer the questions below
+
