@@ -27,6 +27,19 @@ Get your notepad ready, and let’s begin.
 
 Task 2:OSI Model
 
+Before we start, we should note that the OSI model might initially seem complicated. Don’t worry if you encounter cryptic acronyms, as we provide examples of the OSI model layers. We assure you that by the time you finish this module, this task will feel like a piece of cake.
 
+The OSI (Open Systems Interconnection) model is a conceptual model developed by the International Organization for Standardization (ISO) that 
+describes how communications should occur in a computer network. In other words, the OSI model defines a framework for computer network communications.
+Although this model is theoretical, it is vital to learn and understand as it helps grasp networking concepts on a deeper level. The OSI model is composed
+of seven layers:
+
+Physical Layer
+Data Link Layer
+Network Layer
+Transport Layer
+Session Layer
+Presentation Layer
+Application Layer
 
 
