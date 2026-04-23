@@ -230,3 +230,7 @@ Answer: TCP
 Answer: 65
 
 Port numbers range from 1 to 65535 because they use two octets (each with 8 bits). This means the highest possible port number is 65535. When we round this number to thousands, we get about 65 thousand.
+
+
+
+Task 6:Encapsulation
