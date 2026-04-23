@@ -327,3 +327,7 @@ Answer the questions below
 To find the name and version of the HTTP server
 Connect to the web server:
 Answer: lighttpd/1.4.63
+
+7.2 What flag did you get when you viewed the page?
+http://MACHINE_IP:80
+Answer: THM{TELNET_MASTER}
