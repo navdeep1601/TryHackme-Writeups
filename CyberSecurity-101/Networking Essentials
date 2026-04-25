@@ -72,3 +72,7 @@ Answer: 255.255.255.255
 
 What is the source IP address a client uses when trying to get IP network configuration over DHCP?
 Answer: 0.0.0.0
+
+
+
+Task 3:ARP: Bridging Layer 3 Addressing to Layer 2 Addressing
