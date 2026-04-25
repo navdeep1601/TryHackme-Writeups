@@ -31,3 +31,15 @@ Internet Control Message Protocol (ICMP)
 Ping
 Traceroute
 
+DHCP: Give Me My Network Settings
+DHCP automates the network configuration process, such as setting up an IP address, Subnet Mask, Default Gateway, and DNS Server, so users don’t need to manually configure these settings every time they connect to a new network. This helps avoid IP address conflicts and is particularly useful for mobile devices like smartphones and laptops.
+
+Example: When you connect to a coffee shop’s Wi-Fi, your device automatically requests an IP address from the shop’s DHCP server. The server responds with an available IP address and necessary network settings.
+
+DHCP Process (DORA):
+DHCP Discover: The client sends out a DHCPDISCOVER broadcast message to find a DHCP server.
+DHCP Offer: The DHCP server responds with a DHCPOFFER containing an available IP address.
+DHCP Request: The client replies with a DHCPREQUEST to accept the offered IP address.
+DHCP Acknowledge: The server sends a DHCPACK to confirm the assignment of the IP address and other settings​(DHCP).
+The following packet capture shows the four steps explained above. In this example, the client gets the address 192.168.66.133.
+
