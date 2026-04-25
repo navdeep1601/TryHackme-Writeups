@@ -43,3 +43,9 @@ DHCP Request: The client replies with a DHCPREQUEST to accept the offered IP add
 DHCP Acknowledge: The server sends a DHCPACK to confirm the assignment of the IP address and other settings​(DHCP).
 The following packet capture shows the four steps explained above. In this example, the client gets the address 192.168.66.133.
 
+
+user@TryHackMe$ tshark -r DHCP-G5000.pcap -n
+    1   0.000000      0.0.0.0 → 255.255.255.255 DHCP 342 DHCP Discover - Transaction ID 0xfb92d53f
+    2   0.013904 192.168.66.1 → 192.168.66.133 DHCP 376 DHCP Offer    - Transaction ID 0xfb92d53f
+    3   4.115318      0.0.0.0 → 255.255.255.255 DHCP 342 DHCP Request  - Transaction ID 0xfb92d53f
+    4   4.228117 192.168.66.1 → 192.168.66.133 DHCP 376 DHCP ACK      - Transaction ID 0xfb92d53f
