@@ -76,3 +76,10 @@ Answer: 0.0.0.0
 
 
 Task 3:ARP: Bridging Layer 3 Addressing to Layer 2 Addressing
+
+ARP is a protocol used to map a device’s IP address to its MAC (Media Access Control) address. When a device wants to communicate with another device on the same local network, it needs the MAC address to create a data link layer frame.
+As a reminder, in the screenshot below, we see an IP packet within an Ethernet frame. The Ethernet frame header contains:
+
+Destination MAC address
+Source MAC address
+Type (IPv4 in this case)
