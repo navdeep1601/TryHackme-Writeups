@@ -60,3 +60,15 @@ Benefits of DHCP:
 Automates network configuration, saving time.
 Prevents IP conflicts when multiple devices are connected.
 Especially useful in dynamic environments like public Wi-Fi.
+
+
+Answer the questions below
+
+How many steps does DHCP use to provide network configuration?
+Answer: 4
+
+What is the destination IP address that a client uses when it sends a DHCP Discover packet?
+Answer: 255.255.255.255
+
+What is the source IP address a client uses when trying to get IP network configuration over DHCP?
+Answer: 0.0.0.0
