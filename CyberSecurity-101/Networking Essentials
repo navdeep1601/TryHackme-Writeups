@@ -170,3 +170,13 @@ traceroute to example.com (93.184.215.14), 30 hops max, 60 byte packets
 16  93.184.215.14 (93.184.215.14)  140.574 ms  140.543 ms  140.514 ms
 17  93.184.215.14 (93.184.215.14)  140.488 ms  139.397 ms  141.854 ms
 The traversed route might change as we rerun the command.
+
+
+Answer the questions below
+
+Using the example images above, how many bytes were sent in the echo (ping) request?
+Answer: 40
+
+Which IP header field does the traceroute command require to become zero?
+Answer: TTL
+
