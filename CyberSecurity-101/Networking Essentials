@@ -1,1 +1,33 @@
 TryHackMe — Networking Essentials | Cyber Security 101
+
+
+Task 1:Introduction
+
+Have you ever wondered how your computer can dynamically configure its network settings when you turn it on or connect it to a new network? Have you ever wanted to know how many devices and countries your packets passed through before reaching their destination? Are you curious how all your home devices can access the Internet even though your ISP gives you a single IP address?
+
+If you want to know the answers to these questions, among others, then this room is for you.
+
+This room is the second room in a series of four rooms about computer networking:
+
+Networking Concepts
+Networking Essentials (this room)
+Networking Core Protocols
+Networking Secure Protocols
+Learning Prerequisites
+To benefit from this room, we recommend that you know the following:
+
+ISO OSI model and layers
+TCP/IP model and layers
+Ethernet, IP, and TCP protocols
+In other words, starting this room after Networking Concepts is the recommended approach.
+
+Learning Objectives
+The objective of this room is to teach you about various standard protocols and technologies that glue things together:
+
+Dynamic Host Configuration Protocol (DHCP)
+Address Resolution Protocol (ARP)
+Network Address Translation (NAT)
+Internet Control Message Protocol (ICMP)
+Ping
+Traceroute
+
