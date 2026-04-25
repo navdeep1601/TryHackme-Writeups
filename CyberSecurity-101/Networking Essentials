@@ -99,3 +99,13 @@ tcpdump: The command to run tcpdump, which is used to capture or analyze network
 -r arp.pcapng: The -r option specifies the packet capture file (arp.pcapng) to read from.
 -n: Just like in TShark, the -n option disables DNS lookups, preventing IP addresses from being resolved into hostnames.
 -v: This enables verbose mode, meaning more detailed output. It will show extra information about the packets, like packet size, and detailed protocol information.
+
+An ARP Request or ARP Reply is not encapsulated within a UDP or even IP packet; it is encapsulated directly within an Ethernet frame. The following ARP Reply shows this.
+
+ARP Process:
+
+ARP Request: The device sends a broadcast message asking for the MAC address associated with the known IP address.
+ARP Reply: The device that has the IP address responds with its MAC address​(DHCP).
+
+
+Answer the questions below
