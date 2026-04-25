@@ -49,3 +49,11 @@ user@TryHackMe$ tshark -r DHCP-G5000.pcap -n
     2   0.013904 192.168.66.1 → 192.168.66.133 DHCP 376 DHCP Offer    - Transaction ID 0xfb92d53f
     3   4.115318      0.0.0.0 → 255.255.255.255 DHCP 342 DHCP Request  - Transaction ID 0xfb92d53f
     4   4.228117 192.168.66.1 → 192.168.66.133 DHCP 376 DHCP ACK      - Transaction ID 0xfb92d53f
+
+tshark: This is the command to start the TShark program.
+-r DHCP-G5000.pcap: The -r option tells TShark to read from a specified file, in this case, DHCP-G5000.pcap, which is a packet capture file that logs network traffic.
+-n: The -n option prevents TShark from resolving hostnames or converting IP addresses to domain names. This makes the output faster by not requiring DNS lookups.
+Benefits of DHCP:
+Automates network configuration, saving time.
+Prevents IP conflicts when multiple devices are connected.
+Especially useful in dynamic environments like public Wi-Fi.
