@@ -128,3 +128,6 @@ Ping Example:
 You can use the ping command to check if a server is online. By typing ping example.com, the system sends ICMP Echo Requests to the server, and if the server is reachable, it replies with ICMP Echo Replies​(DHCP).
 
 The ping command sends an ICMP Echo Request (ICMP Type 8). The screenshot below shows the ICMP message within an IP packet.
+
+The computer on the receiving end responds with an ICMP Echo Reply (ICMP Type 0).
+
