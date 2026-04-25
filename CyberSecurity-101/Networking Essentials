@@ -219,3 +219,12 @@ Answer: 65
 
 
 Task 7:Closing Notes
+
+This room introduced various protocols that we constantly use directly or indirectly. We have covered ICMP, DHCP, ARP, NAT, and routing.
+Although we use the Internet daily without coming across most of this room’s acronyms, these protocols are the foundation for a functional network.
+
+
+Answer the questions below
+
+Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
+Answer: THM{computer_is_happy}
