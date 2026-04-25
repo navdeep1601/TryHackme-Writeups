@@ -119,3 +119,12 @@ Answer: 44:df:65:d8:fe:6c
 
 
 Task 4:ICMP: Troubleshooting Networks
+
+ICMP is primarily used for network diagnostics and troubleshooting. Two common commands that rely on ICMP are:
+
+Ping: Tests the connectivity between your device and a target system. It sends an ICMP Echo Request and waits for an ICMP Echo Reply.
+Traceroute: Finds the path data takes from your device to a target system by identifying each router along the way.
+Ping Example:
+You can use the ping command to check if a server is online. By typing ping example.com, the system sends ICMP Echo Requests to the server, and if the server is reachable, it replies with ICMP Echo Replies​(DHCP).
+
+The ping command sends an ICMP Echo Request (ICMP Type 8). The screenshot below shows the ICMP message within an IP packet.
