@@ -109,3 +109,9 @@ ARP Reply: The device that has the IP address responds with its MAC address​(D
 
 
 Answer the questions below
+
+What is the destination MAC address used in an ARP Request?
+Answer: ff:ff:ff:ff:ff:ff
+
+In the example above, what is the MAC address of 192.168.66.1?
+Answer: 44:df:65:d8:fe:6c
