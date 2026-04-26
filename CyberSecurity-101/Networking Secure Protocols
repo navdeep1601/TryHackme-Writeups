@@ -120,3 +120,9 @@ IMAPS: Secure Internet Message Access Protocol (email synchronization) over TLS.
 
 Example:
 Using IMAPS ensures that emails you read on multiple devices (like a phone and laptop) are synchronized securely, preventing eavesdroppers from accessing sensitive information.
+
+
+Answer the questions below
+
+If you capture network traffic, in which of the following protocols can you extract login credentials: SMTPS, POP3S, or IMAP?
+Answer: IMAP
