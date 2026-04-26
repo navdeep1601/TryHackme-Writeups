@@ -142,3 +142,7 @@ Confidentiality: OpenSSH provides end-to-end encryption, protecting against eave
 Integrity: In addition to protecting the confidentiality of the exchanged data, cryptography also protects the integrity of the traffic.
 Tunneling: SSH can create a secure “tunnel” to route other protocols through SSH. This setup leads to a VPN-like connection.
 X11 Forwarding: If you connect to a Unix-like system with a graphical user interface, SSH allows you to use the graphical application over the network.
+
+You would issue the command ssh username@hostname to connect to an SSH server. If the username is the same as your logged-in username, you only need ssh hostname. Then, you will be asked for a password; however, if public-key authentication is used, you will be logged in immediately.
+
+The screenshot below shows an example of running Wireshark on a remote Kali Linux system. The argument -X is required to support running graphical interfaces, for example, ssh 192.168.124.148 -X. (The local system needs to have a suitable graphical system installed.)
