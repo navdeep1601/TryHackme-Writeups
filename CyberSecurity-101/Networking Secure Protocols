@@ -50,3 +50,10 @@ When implemented, it encrypts all data exchanged between a client and a server, 
 
 Certificates in TLS
 Before secure communication begins, a server (or client) needs a signed TLS certificate to verify its identity. This certificate is issued by a Certificate Authority (CA) after the server submits a Certificate Signing Request (CSR).
+
+Key Points:
+
+Trusted Certificates: Certificates from trusted CAs are automatically recognized by web browsers.
+Self-Signed Certificates: These are not recommended for verifying authenticity, as they are not validated by a third party.
+Example:
+Many websites use trusted certificates issued by CAs like Let’s Encrypt, which offers free certificates. Self-signed certificates may be used for internal or testing purposes but are less secure.
