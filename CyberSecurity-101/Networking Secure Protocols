@@ -133,3 +133,12 @@ Task 5:SSH
 
 SSH (Secure Shell) is a protocol used to securely log in to remote systems. It provides encrypted communication, which protects the integrity and confidentiality of the connection. SSH replaced older, 
 insecure methods like Telnet, where all data, including passwords, was sent in cleartext.
+
+
+OpenSSH offers several benefits. We will list a few key points:
+
+Secure authentication: Besides password-based authentication, SSH supports public key and two-factor authentication.
+Confidentiality: OpenSSH provides end-to-end encryption, protecting against eavesdropping. Furthermore, it notifies you of new server keys to protect against man-in-the-middle attacks.
+Integrity: In addition to protecting the confidentiality of the exchanged data, cryptography also protects the integrity of the traffic.
+Tunneling: SSH can create a secure “tunnel” to route other protocols through SSH. This setup leads to a VPN-like connection.
+X11 Forwarding: If you connect to a Unix-like system with a graphical user interface, SSH allows you to use the graphical application over the network.
