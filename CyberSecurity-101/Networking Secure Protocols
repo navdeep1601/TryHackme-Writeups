@@ -146,3 +146,13 @@ X11 Forwarding: If you connect to a Unix-like system with a graphical user inter
 You would issue the command ssh username@hostname to connect to an SSH server. If the username is the same as your logged-in username, you only need ssh hostname. Then, you will be asked for a password; however, if public-key authentication is used, you will be logged in immediately.
 
 The screenshot below shows an example of running Wireshark on a remote Kali Linux system. The argument -X is required to support running graphical interfaces, for example, ssh 192.168.124.148 -X. (The local system needs to have a suitable graphical system installed.)
+
+
+While the TELNET server listens on port 23, the SSH server listens on port 22.
+
+
+
+Answer the questions below
+
+What is the name of the open-source implementation of the SSH protocol?
+Answer: OpenSSH
