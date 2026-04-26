@@ -91,3 +91,7 @@ HTTPS stands for Hypertext Transfer Protocol Secure. It is basically HTTP over T
 Establish a TCP three-way handshake with the target server
 Establish a TLS session
 Communicate using the HTTP protocol; for example, issue HTTP requests, such as GET / HTTP/1.1
+
+Getting the Encryption Key
+Adding TLS to HTTP leads to all the packets being encrypted. We can no longer see the contents of the exchanged packets unless we get access to the private key. Although it is improbable that we will have
+access to the keys used for encryption in a TLS session, we repeated the above screenshots after providing the decryption key to Wireshark. The TCP and TLS handshakes don’t change; the main difference starts with the HTTP protocol marked 3. For instance, we can see when the client issues a GET.
