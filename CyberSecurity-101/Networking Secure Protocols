@@ -116,3 +116,7 @@ Adding TLS to protocols like SMTP, POP3, and IMAP secures email communication. T
 SMTPS: Secure Mail Transfer Protocol over TLS.
 POP3S: Secure Post Office Protocol (email retrieval) over TLS.
 IMAPS: Secure Internet Message Access Protocol (email synchronization) over TLS.
+
+
+Example:
+Using IMAPS ensures that emails you read on multiple devices (like a phone and laptop) are synchronized securely, preventing eavesdroppers from accessing sensitive information.
