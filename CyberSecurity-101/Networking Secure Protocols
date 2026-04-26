@@ -57,3 +57,13 @@ Trusted Certificates: Certificates from trusted CAs are automatically recognized
 Self-Signed Certificates: These are not recommended for verifying authenticity, as they are not validated by a third party.
 Example:
 Many websites use trusted certificates issued by CAs like Let’s Encrypt, which offers free certificates. Self-signed certificates may be used for internal or testing purposes but are less secure.
+
+
+Answer the questions below
+
+What is the protocol name that TLS upgraded and built upon?
+Answer: SSL
+
+Which type of certificates should not be used to confirm the authenticity of a server?
+Answer: salf-signed certificate
+
