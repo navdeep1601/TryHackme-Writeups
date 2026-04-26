@@ -169,3 +169,13 @@ FTPS: Uses TLS for security, similar to HTTPS, and typically operates on port 99
 Example:
 
 sftp user@hostname
+
+
+This command establishes a secure file transfer session using SFTP, ensuring that all file uploads and downloads are encrypted.
+
+
+
+Answer the questions below
+
+Click on the View Site button to access the related site. Please follow the instructions on the site to obtain the flag.
+Answer: THM{Protocols_secur3d}
