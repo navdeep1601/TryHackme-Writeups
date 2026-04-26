@@ -160,3 +160,12 @@ Answer: OpenSSH
 
 
 Task 6:SFTP and FTPS
+
+
+SFTP (SSH File Transfer Protocol) and FTPS (File Transfer Protocol Secure) both provide secure ways to transfer files, but they use different underlying technologies.
+
+SFTP: Part of the SSH protocol suite, operating on port 22.
+FTPS: Uses TLS for security, similar to HTTPS, and typically operates on port 990.
+Example:
+
+sftp user@hostname
