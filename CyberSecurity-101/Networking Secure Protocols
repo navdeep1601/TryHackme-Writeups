@@ -214,3 +214,15 @@ Answer: VPN
 
 
 Task 8:Closing Notes
+
+
+In summary, TLS plays a crucial role in securing modern internet communications. It provides a framework for securing a wide range of protocols, including HTTP, SMTP, IMAP, and more. Together with SSH and VPNs, these technologies protect data integrity and confidentiality, enabling secure remote access, file transfers, and online transactions.
+
+The combination of these protocols ensures that sensitive data — whether in transit, email, or file transfers — remains secure and inaccessible to attackers.
+
+We have set the browser to log the session’s TLS keys so we can take a closer look at the traffic using Wireshark. This logging was achieved by adding an extra option to the browser shortcut. Executing chromium --ssl-key-log-file=~/ssl-key.log dumps the TLS keys to the ssl-key.log file.
+
+The packet capture file is called randy-chromium.pcapng and is saved in the Documents folder. When you open the packet capture file in Wireshark, you can configure Wireshark to use the ssl-key.log file so that all the TLS traffic gets decrypted. You can see the five steps to achieve this in the two screenshots below.
+
+First, after right-clicking anywhere, choose “Protocol Preferences.” From the submenu, select “Transport Layer Security.” Thirdly, click on “Open Transport Layer Security preferences.”
+
