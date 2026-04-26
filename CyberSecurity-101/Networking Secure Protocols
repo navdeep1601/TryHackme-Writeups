@@ -101,3 +101,7 @@ Answer the questions below
 
 How many packets did the TLS negotiation and establishment take in the Wireshark HTTPS screenshots above?
 Answer: 8
+
+What is the number of the packet that contain the GET /login when accessing the website over HTTPS?
+Answer: 10
+
