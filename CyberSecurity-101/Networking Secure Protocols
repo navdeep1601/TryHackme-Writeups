@@ -71,3 +71,9 @@ Answer: salf-signed certificate
 
 
 Task 3:HTTPS
+
+
+HTTP
+As we studied in the Networking Core Protocols room, HTTP relies on TCP and uses port 80 by default. 
+We also saw how all HTTP traffic was sent in cleartext for anyone to intercept and monitor. The screenshot below is from the previous room, 
+and it gives a clear idea of how an adversary can easily read all the traffic exchanged between the client and the server.
