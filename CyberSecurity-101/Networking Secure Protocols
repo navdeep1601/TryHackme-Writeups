@@ -95,3 +95,9 @@ Communicate using the HTTP protocol; for example, issue HTTP requests, such as G
 Getting the Encryption Key
 Adding TLS to HTTP leads to all the packets being encrypted. We can no longer see the contents of the exchanged packets unless we get access to the private key. Although it is improbable that we will have
 access to the keys used for encryption in a TLS session, we repeated the above screenshots after providing the decryption key to Wireshark. The TCP and TLS handshakes don’t change; the main difference starts with the HTTP protocol marked 3. For instance, we can see when the client issues a GET.
+
+
+Answer the questions below
+
+How many packets did the TLS negotiation and establishment take in the Wireshark HTTPS screenshots above?
+Answer: 8
