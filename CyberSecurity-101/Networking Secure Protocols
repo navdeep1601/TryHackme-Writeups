@@ -130,3 +130,6 @@ Answer: IMAP
 
 
 Task 5:SSH
+
+SSH (Secure Shell) is a protocol used to securely log in to remote systems. It provides encrypted communication, which protects the integrity and confidentiality of the connection. SSH replaced older, 
+insecure methods like Telnet, where all data, including passwords, was sent in cleartext.
