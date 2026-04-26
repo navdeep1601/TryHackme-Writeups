@@ -77,3 +77,10 @@ HTTP
 As we studied in the Networking Core Protocols room, HTTP relies on TCP and uses port 80 by default. 
 We also saw how all HTTP traffic was sent in cleartext for anyone to intercept and monitor. The screenshot below is from the previous room, 
 and it gives a clear idea of how an adversary can easily read all the traffic exchanged between the client and the server.
+
+Let’s take a minute to review the most common steps before a web browser can request a page over HTTP. After resolving the domain name to an IP address, the client will carry out the following two steps:
+
+Establish a TCP three-way handshake with the target server
+Communicate using the HTTP protocol; for example, issue HTTP requests, such as GET / HTTP/1.1
+The two steps described above are shown in the window below. The three packets for the TCP handshake (marked with 1) precede the first HTTP packet with GET in it. The HTTP communication is marked with 2.
+The last three displayed packets are for TCP connection termination and are marked with 3.
