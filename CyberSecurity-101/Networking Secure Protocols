@@ -84,3 +84,10 @@ Establish a TCP three-way handshake with the target server
 Communicate using the HTTP protocol; for example, issue HTTP requests, such as GET / HTTP/1.1
 The two steps described above are shown in the window below. The three packets for the TCP handshake (marked with 1) precede the first HTTP packet with GET in it. The HTTP communication is marked with 2.
 The last three displayed packets are for TCP connection termination and are marked with 3.
+
+HTTP Over TLS
+HTTPS stands for Hypertext Transfer Protocol Secure. It is basically HTTP over TLS. Consequently, requesting a page over HTTPS will require the following three steps (after resolving the domain name):
+
+Establish a TCP three-way handshake with the target server
+Establish a TLS session
+Communicate using the HTTP protocol; for example, issue HTTP requests, such as GET / HTTP/1.1
