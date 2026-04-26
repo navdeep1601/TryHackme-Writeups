@@ -226,3 +226,6 @@ The packet capture file is called randy-chromium.pcapng and is saved in the Docu
 
 First, after right-clicking anywhere, choose “Protocol Preferences.” From the submenu, select “Transport Layer Security.” Thirdly, click on “Open Transport Layer Security preferences.”
 
+
+Clicking “Open Transport Layer Security preferences” will show a dialog box. You must click the “Browse” button marked with four to locate the ssl-key.log. You can find it in the Documents directory. Finally, click OK, and Wireshark will show all the TLS decrypted. One of these packets contains login credentials.
+
