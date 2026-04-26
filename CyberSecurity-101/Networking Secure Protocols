@@ -47,3 +47,6 @@ Key Concepts:
 
 TLS secures data at the Transport Layer of the OSI model.
 When implemented, it encrypts all data exchanged between a client and a server, ensuring confidentiality and integrity.
+
+Certificates in TLS
+Before secure communication begins, a server (or client) needs a signed TLS certificate to verify its identity. This certificate is issued by a Certificate Authority (CA) after the server submits a Certificate Signing Request (CSR).
