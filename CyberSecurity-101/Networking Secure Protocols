@@ -229,3 +229,9 @@ First, after right-clicking anywhere, choose “Protocol Preferences.” From th
 
 Clicking “Open Transport Layer Security preferences” will show a dialog box. You must click the “Browse” button marked with four to locate the ssl-key.log. You can find it in the Documents directory. Finally, click OK, and Wireshark will show all the TLS decrypted. One of these packets contains login credentials.
 
+
+
+Answer the questions below
+
+One of the packets contains login credentials. What password did the user submit?
+Answer: THM{B8WM6P}
