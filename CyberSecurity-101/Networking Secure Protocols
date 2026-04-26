@@ -192,3 +192,10 @@ Key Features:
 
 Encryption: VPNs encrypt all traffic between the client and server.
 Anonymity: VPN users appear to be coming from the VPN server’s IP address rather than their actual location.
+
+Example:
+A remote employee can use a VPN to connect securely to their company’s network and access shared files and applications, just as if they were in the office.
+
+Once a VPN tunnel is established, all our Internet traffic will usually be routed over the VPN connection, i.e. via the VPN tunnel. Consequently, when we try to access an Internet service or web application, they will not see our public IP address but the VPN server’s. This is why some Internet users connect over VPN to circumvent geographical restrictions. Furthermore, the local ISP will only see encrypted traffic, which limits its ability to censor Internet access.
+
+In other words, if a user connects to a VPN server in Japan, they will appear to the servers they access as if located in Japan. These servers will customise their experience accordingly, such as redirecting them to the Japanese version of the service. The screenshot below shows the Google Search page after connecting to a VPN server in Japan.
