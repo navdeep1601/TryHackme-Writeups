@@ -40,4 +40,9 @@ Task 2:TLS
 
 TLS (Transport Layer Security) is a cryptographic protocol that secures communication over networks by providing confidentiality and integrity. It operates at the Transport Layer of the OSI model. TLS is an evolution of SSL (Secure Sockets Layer), with TLS 1.3 being the latest version, introduced in 2018.
 
+Example:
+In the 1990s, before TLS, attackers could easily capture unencrypted data, such as login credentials, simply by intercepting network traffic. With the introduction of SSL and later TLS, sensitive information like usernames and passwords is encrypted during transmission.
+
+Key Concepts:
+
 
