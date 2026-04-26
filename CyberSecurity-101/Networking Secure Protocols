@@ -38,3 +38,6 @@ How VPN creates a secure network over an insecure one
 Task 2:TLS
 
 
+TLS (Transport Layer Security) is a cryptographic protocol that secures communication over networks by providing confidentiality and integrity. It operates at the Transport Layer of the OSI model. TLS is an evolution of SSL (Secure Sockets Layer), with TLS 1.3 being the latest version, introduced in 2018.
+
+
