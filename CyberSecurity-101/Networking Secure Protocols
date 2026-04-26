@@ -7,3 +7,11 @@ In the Networking Core Protocols room, we learned about the protocols used to br
 Authenticity means ensuring we are talking with the correct server, not a fake one. Important online transactions are risky without ensuring confidentiality, integrity, and authenticity.
 
 Similarly, it is deemed insecure to remotely access a system using the TELNET protocol; Secure Shell (SSH) was created to provide a secure way to access remote systems. Furthermore, SSH is an extensible protocol that offers added security features for other protocols.
+
+Room Prerequisites
+This room is the last in a group of four rooms about computer networking:
+
+Networking Concepts
+Networking Essentials
+Networking Core Protocols
+Networking Secure Protocols (this room)
