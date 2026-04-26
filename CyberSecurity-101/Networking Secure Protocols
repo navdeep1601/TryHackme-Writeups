@@ -45,4 +45,5 @@ In the 1990s, before TLS, attackers could easily capture unencrypted data, such 
 
 Key Concepts:
 
-
+TLS secures data at the Transport Layer of the OSI model.
+When implemented, it encrypts all data exchanged between a client and a server, ensuring confidentiality and integrity.
