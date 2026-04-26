@@ -184,3 +184,11 @@ Answer: THM{Protocols_secur3d}
 
 
 Task 7:VPN
+
+
+A VPN (Virtual Private Network) creates a secure tunnel between a client and a VPN server, allowing users to access remote networks as if they were directly connected. VPNs are widely used by companies to allow employees to securely access internal resources from remote locations.
+
+Key Features:
+
+Encryption: VPNs encrypt all traffic between the client and server.
+Anonymity: VPN users appear to be coming from the VPN server’s IP address rather than their actual location.
