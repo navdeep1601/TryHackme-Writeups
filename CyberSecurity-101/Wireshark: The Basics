@@ -53,3 +53,7 @@ Status Bar Tool status, profile and numeric packet information.
 
 The below picture shows Wireshark’s main window. The sections explained in the table are highlighted. Now open the Wireshark and go through the walkthrough.
 
+Loading PCAP Files
+
+The above picture shows Wireshark’s empty interface. The only available information is the recently processed “http1.cap” file. Let’s load that file and
+see Wireshark’s detailed packet presentation. Note that you can also use the “File” menu, dragging and dropping the file, or double-clicking on the file to load a pcap.
