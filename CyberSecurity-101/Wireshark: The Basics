@@ -79,3 +79,6 @@ Along with quick packet information, Wireshark also colour packets in order of d
 
 Wireshark has two types of packet colouring methods: temporary rules that are only available during a program session and permanent rules that are saved under the preference file (profile) and available for the next program session. You can use the “right-click menu” or “View → Coloring Rules” menu to create permanent colouring rules. The “Colourise Packet List” menu activates/deactivates the colouring rules. Temporary packet colouring is done with the “right-click menu” or “View → Conversation Filter” menu, which is covered in TASK-5.
 
+
+Traffic Sniffing
+You can use the blue “shark button” to start network sniffing (capturing traffic), the red button will stop the sniffing, and the green button will restart the sniffing process. The status bar will also provide the used sniffing interface and the number of collected packets.
