@@ -186,3 +186,7 @@ Packet Comments
 
 Similar to packet marking, commenting is another helpful feature for analysts. You can add comments for particular packets 
 that will help the further investigation or remind and point out important/suspicious points for other layer analysts. Unlike packet marking, the comments can stay within the capture file until the operator removes them.
+
+Export Packets
+Capture files can contain thousands of packets in a single file. As mentioned earlier, Wireshark is not an IDS, so sometimes, it is necessary to separate specific packages from the file and dig deeper to resolve an incident. This functionality helps analysts share
+the only suspicious packages (decided scope). Thus redundant information is not included in the analysis process. You can use the “File” menu to export packets.
