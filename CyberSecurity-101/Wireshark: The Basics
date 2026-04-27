@@ -175,3 +175,9 @@ Hex, String and Regex). String and regex searches are the most commonly used sea
 
 The second point is choosing the search field. You can conduct searches in the three panes (packet list, packet details, and packet bytes), and it 
 is important to know the available information in each pane to find the event of interest. For example, if you try to find the information available in the packet details pane and conduct the search in the packet list pane, Wireshark won’t find it even if it exists.
+
+
+Mark Packets
+
+Marking packets is another helpful functionality for analysts. You can find/point to a specific packet for further investigation by marking it. It helps analysts point to an event of interest or export particular packets from the capture. You can use the “Edit” or the “right-click” menu to mark/unmark packets.
+Marked packets will be shown in black regardless of the original colour representing the connection type. Note that marked packet information is renewed every file session, so marked packets will be lost after closing the capture file.
