@@ -241,11 +241,18 @@ Save the file with a .jpg extension (extracted_image.jpg).
 Next Open a terminal window
 
 List the content
-
 Navigate to the Desktop folder
-
 List the content
-
 Calculate the MD5 Hash of the saved image
+Answer: 911cd574a42865a956ccde2d04495ebf
 
+4.3 There is a “.txt” file inside the capture file. Find the file and read it; what is the alien’s name?
+Navigated to File > Export Objects > HTTP…. This option allows to export all HTTP objects found in the capture file.
+Filter the list of HTTP objects .txt and save it
 
+Open Terminal window
+List the content
+Navigate to the Desktop folder
+List the content of the folder
+Read the content of note.txt
+Answer: PACKETMASTER
