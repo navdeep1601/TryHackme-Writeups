@@ -153,3 +153,17 @@ Answer: 424
 3.4 What is the e-tag value?
 Expand the “Hypertext Transfer Protocol” section in the packet details pane.
 Answer: 9a01a-4696-7e354b00
+
+
+
+Task 4 Packet Navigation
+
+Packet Numbers
+Wireshark calculates the number of investigated packets and assigns a unique number for each packet.
+This helps the analysis process for big captures and makes it easy to go back to a specific point of an event.
+
+Go to Packet
+Packet numbers do not only help to count the total number of packets or make it easier to find/investigate specific packets.
+This feature not only navigates between packets up and down; it also provides in-frame packet tracking and finds the next packet in the particular part of the conversation. You can use the “Go” menu and toolbar to view specific packets.
+
+Find Packets
