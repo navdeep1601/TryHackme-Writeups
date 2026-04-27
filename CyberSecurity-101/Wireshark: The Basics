@@ -207,3 +207,13 @@ Wireshark also detects specific states of protocols to help analysts easily spot
 Expert info can provide a group of categories in three different severities. Details are shown in the table below.
 
 You can use the “lower left bottom section” in the status bar or “Analyse → Expert Information” menu to view all available information entries via a dialogue box. It will show the packet number, summary, group protocol and total occurrence.
+
+
+Answer the questions below
+
+Use the “Exercise.pcapng” file to answer the questions.
+
+4.1 Search the “r4w” string in packet details. What is the name of artist 1?
+Enter the string “r4w” and perform the search
+Review the packet details to find the relevant information. The artist’s name may be mentioned nearby.
+Answer: r4w8173
