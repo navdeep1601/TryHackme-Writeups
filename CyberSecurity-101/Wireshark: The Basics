@@ -60,3 +60,15 @@ see Wiresharkâ€™s detailed packet presentation. Note that you can also use the â
 
 Now, we can see the processed filename, detailed number of packets and packet details. Packet details are shown in three 
 different panes, which allow us to discover them in different formats.
+
+Packet List Pane
+Summary of each packet (source and destination addresses, protocol, 
+and packet info). You can click on the list to choose a packet for 
+further investigation. Once you select a packet, the details will 
+appear in the other panels.
+
+Packet Details Pane
+Detailed protocol breakdown of the selected packet.
+
+Packet Bytes Pane
+ Hex and decoded ASCII representation of the selected packet. It highlights the packet field depending on the clicked section in the details pane. 
