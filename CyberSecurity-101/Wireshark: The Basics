@@ -181,3 +181,8 @@ Mark Packets
 
 Marking packets is another helpful functionality for analysts. You can find/point to a specific packet for further investigation by marking it. It helps analysts point to an event of interest or export particular packets from the capture. You can use the “Edit” or the “right-click” menu to mark/unmark packets.
 Marked packets will be shown in black regardless of the original colour representing the connection type. Note that marked packet information is renewed every file session, so marked packets will be lost after closing the capture file.
+
+Packet Comments
+
+Similar to packet marking, commenting is another helpful feature for analysts. You can add comments for particular packets 
+that will help the further investigation or remind and point out important/suspicious points for other layer analysts. Unlike packet marking, the comments can stay within the capture file until the operator removes them.
