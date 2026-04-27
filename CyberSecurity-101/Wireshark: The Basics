@@ -199,3 +199,11 @@ Wireshark can extract files transferred through the wire. For a security analyst
 Time Display Format
 Wireshark lists the packets as they are captured, so investigating the default flow is not always the best option. By default, Wireshark shows the time in
 “Seconds Since Beginning of Capture”, the common usage is using the UTC Time Display Format for a better view. You can use the “View → Time Display Format” menu to change the time display format.
+
+
+Expert Info
+
+Wireshark also detects specific states of protocols to help analysts easily spot possible anomalies and problems. Note that these are only suggestions, and there is always a chance of having false positives/negatives. 
+Expert info can provide a group of categories in three different severities. Details are shown in the table below.
+
+You can use the “lower left bottom section” in the status bar or “Analyse → Expert Information” menu to view all available information entries via a dialogue box. It will show the packet number, summary, group protocol and total occurrence.
