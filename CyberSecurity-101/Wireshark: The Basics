@@ -167,3 +167,11 @@ Packet numbers do not only help to count the total number of packets or make it 
 This feature not only navigates between packets up and down; it also provides in-frame packet tracking and finds the next packet in the particular part of the conversation. You can use the “Go” menu and toolbar to view specific packets.
 
 Find Packets
+Apart from packet number, Wireshark can find packets by packet content. You can use the “Edit → Find Packet” menu to make a search inside the packets for a particular event of 
+interest. This helps analysts and administrators to find specific intrusion patterns or failure traces.
+
+There are two crucial points in finding packets. The first is knowing the input type. This functionality accepts four types of inputs (Display filter, 
+Hex, String and Regex). String and regex searches are the most commonly used search types. Searches are case insensitive, but you can set the case sensitivity in your search by clicking the radio button.
+
+The second point is choosing the search field. You can conduct searches in the three panes (packet list, packet details, and packet bytes), and it 
+is important to know the available information in each pane to find the event of interest. For example, if you try to find the information available in the packet details pane and conduct the search in the packet list pane, Wireshark won’t find it even if it exists.
