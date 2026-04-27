@@ -36,3 +36,17 @@ GUI and Data
 
 Wireshark GUI opens with a single all-in-one page, which helps users investigate the traffic in multiple ways. At first glance, five sections stand out.
 
+Toolbar The main toolbar contains multiple menus 
+and shortcuts for packet sniffing and processing, including filtering, sorting, summarising, exporting and merging. 
+
+Display Filter Bar The main query and filtering section.
+
+Recent Files List of the recently 
+investigated files. You can recall listed files with a double-click. 
+
+Capture Filter and Interfaces Capture filters and
+available sniffing points (network interfaces).  
+The network interface is the connection point between a computer and a network.
+The software connection (e.g., lo, eth0 and ens33) enables networking hardware.
+
+Status Bar Tool status, profile and numeric packet information.
