@@ -57,3 +57,6 @@ Loading PCAP Files
 
 The above picture shows Wireshark’s empty interface. The only available information is the recently processed “http1.cap” file. Let’s load that file and
 see Wireshark’s detailed packet presentation. Note that you can also use the “File” menu, dragging and dropping the file, or double-clicking on the file to load a pcap.
+
+Now, we can see the processed filename, detailed number of packets and packet details. Packet details are shown in three 
+different panes, which allow us to discover them in different formats.
