@@ -306,3 +306,11 @@ Use the “Exercise.pcapng” file to answer the questions.
 
 5.1 Go to packet number 4. Right-click on the “Hypertext Transfer Protocol” and apply it as a filter. Now, look at the filter pane. What is the filter query?
 Answer: http
+
+5.2 What is the number of displayed packets?
+Answer: 1089
+
+5.3 Go to packet number 33790 and follow the stream. What is the total number of artists?
+Navigate to packet number 33790, right-click, and select Follow > TCP Stream.
+Filter artist using Find filed
+Answer: Blad3
