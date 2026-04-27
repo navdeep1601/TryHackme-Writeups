@@ -106,3 +106,8 @@ Answer: TryHackMe_Wireshark_Demo
 
 2.2 What is the total number of packets?
 Answer: 58620
+
+2.3 What is the SHA256 hash value of the capture file? (Question Hint
+File details can help)
+Answer: f446de335565fb0b0ee5e5a3266703c778b2f3dfad7efeaeccb2da5641a6d6eb
+
