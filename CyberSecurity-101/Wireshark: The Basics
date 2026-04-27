@@ -190,3 +190,12 @@ that will help the further investigation or remind and point out important/suspi
 Export Packets
 Capture files can contain thousands of packets in a single file. As mentioned earlier, Wireshark is not an IDS, so sometimes, it is necessary to separate specific packages from the file and dig deeper to resolve an incident. This functionality helps analysts share
 the only suspicious packages (decided scope). Thus redundant information is not included in the analysis process. You can use the “File” menu to export packets.
+
+
+Export Objects (Files)
+
+Wireshark can extract files transferred through the wire. For a security analyst, it is vital to discover shared files and save them for further investigation. Exporting objects are available only for selected protocol’s streams (DICOM, HTTP, IMF, SMB and TFTP).
+
+Time Display Format
+Wireshark lists the packets as they are captured, so investigating the default flow is not always the best option. By default, Wireshark shows the time in
+“Seconds Since Beginning of Capture”, the common usage is using the UTC Time Display Format for a better view. You can use the “View → Time Display Format” menu to change the time display format.
