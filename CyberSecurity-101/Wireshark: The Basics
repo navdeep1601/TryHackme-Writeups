@@ -10,3 +10,9 @@ The machine will start in Split-Screen view. If it is not visible, use the blue 
 Note: A VM is attached to this room. You don’t need SSH or RDP; the room provides a “Split View” feature. We suggest completing the Networking module before starting working in this room.
 
 There are two capture files given in the VM. You can use the “http1.pcapng” file to simulate the actions shown in the screenshots. Please note that you need to use the “Exercise.pcapng” file to answer the questions.
+
+
+Answer the questions below
+
+1 Which file is used to simulate the screenshots?
+Answer: http1.pcapng
