@@ -82,3 +82,8 @@ Wireshark has two types of packet colouring methods: temporary rules that are on
 
 Traffic Sniffing
 You can use the blue “shark button” to start network sniffing (capturing traffic), the red button will stop the sniffing, and the green button will restart the sniffing process. The status bar will also provide the used sniffing interface and the number of collected packets.
+
+
+Merge PCAP Files
+Wireshark can combine two pcap files into one single file. You can use the “File → Merge” menu path to merge a pcap with the processed one.
+When you choose the second file, Wireshark will show the total number of packets in the selected file. Once you click “open”, it will merge the existing pcap file with the chosen one and create a new pcap file. Note that you need to save the “merged” pcap file before working on it.
