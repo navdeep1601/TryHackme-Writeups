@@ -314,3 +314,9 @@ Answer: 1089
 Navigate to packet number 33790, right-click, and select Follow > TCP Stream.
 Filter artist using Find filed
 Answer: Blad3
+
+
+Task 6 Conclusion
+Congratulations! You just finished the “Wireshark: The Basics” room. In this room, we covered Wireshark, what it is, how it operates, and how to use it to investigate traffic captures.
+
+Want to learn more? We invite you to complete the Wireshark: Packet Operations room to improve your Wireshark skills by investigating packets in-depth.
