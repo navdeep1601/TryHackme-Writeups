@@ -50,3 +50,6 @@ The network interface is the connection point between a computer and a network.
 The software connection (e.g., lo, eth0 and ens33) enables networking hardware.
 
 Status Bar Tool status, profile and numeric packet information.
+
+The below picture shows Wireshark’s main window. The sections explained in the table are highlighted. Now open the Wireshark and go through the walkthrough.
+
