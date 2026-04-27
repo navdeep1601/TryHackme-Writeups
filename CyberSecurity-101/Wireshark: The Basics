@@ -217,3 +217,35 @@ Use the “Exercise.pcapng” file to answer the questions.
 Enter the string “r4w” and perform the search
 Review the packet details to find the relevant information. The artist’s name may be mentioned nearby.
 Answer: r4w8173
+
+4.2 Go to packet 12 and read the comments. What is the answer? (Question Hint Use the “Right-click → Packet Comment” menu to view the comments. 
+If the comment is long, you can scroll down to follow the rest of the paragraph. Remember, you can also use the “Statistics → Capture File Properties” 
+to view the available comments)
+Go to Edit menu then select Packet Comment.
+The comment on packet 12 in Wireshark reads:
+
+This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag_This_is_Not_a_Flag
+
+Scroll up
+The comment on packet 12 in Wireshark reads:
+
+Go to packet number 39765
+Look at the “packet details pane”. Right-click on the JPEG section and “Export packet bytes”. This is an alternative way of extracting data from a capture file. What is the MD5 hash value of extracted image?
+
+Continue with instructions:
+
+Go to packet number 39765.
+In the packet details pane, look for the JPEG section.
+Right-click on the JPEG section and select “Export packet bytes”.
+Save the file with a .jpg extension (extracted_image.jpg).
+Next Open a terminal window
+
+List the content
+
+Navigate to the Desktop folder
+
+List the content
+
+Calculate the MD5 Hash of the saved image
+
+
