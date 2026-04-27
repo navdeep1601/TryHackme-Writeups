@@ -98,3 +98,9 @@ Knowing the file details is helpful. Especially when working with multiple pcap 
 Answer the questions below
 
 Use the “Exercise.pcapng” file to answer the questions.
+
+2.1 Read the “capture file comments”. What is the flag?
+
+Scroll down in the comments section
+Answer: TryHackMe_Wireshark_Demo
+
